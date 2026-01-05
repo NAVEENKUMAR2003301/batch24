@@ -328,24 +328,234 @@ console.log("m",m); // m = 2
 // pre  = --var
 
 
-
-
-
-
-
-
-
-
+console.clear();
 
 
 
 // Assignment operator
 
+let b1 = 12
+let a1 = 10
+
+    // a1 = a1 + b1  // a1 += b1
+
+    a1 **= b1
+
+    console.log(a1);
+    
+
 // relational OR comparision operator
 
-// logical operator
+
+// meaning       syntex     example     result
+
+// 1. lessThen    <         5<5        false
+
+// 2. greaterThen >         65>1       true
+
+// 3. lessThenEq  <=        5<=5       true
+
+// 4. GreaterThenEq >=      6>=4       true
+
+// 5. loosyTypeEq   ==      5=="5"     true
+
+// 6. StrictlyType  ===     5==="5"    false
+
+// 7. loosyNotEq    !=       5!="5"    false   
+
+// 8. StrictlyNotEq !==      6!==6     false
+
+
+
+// logical operator 
+
+ // AND   - &&
+
+ // true && true = true
+ // true && false = false
+
+ // OR    - ||
+
+ // false || false = false
+
+//  true ||  false = true
+
+
+// NOT --  !
+
+// !(true&&false) = !(false) = true
 
 // ternary operator
+
+
+// condition ? statement : statement
+
+
+
+// (true && false ) ? alert("hello1") : alert("hello2")
+
+
+
+// JavaScript Operators – Code Practice (15 Questions)
+
+
+// console.log(6 * 2 + 4);  //  16
+
+// let a = 5;
+// let b = a++;
+// console.log(a, b); // 6 , 5
+
+// console.log(10 == "10"); // true
+
+// let x = 4;
+// x **= 2;
+// console.log(x); // 16
+
+// console.log(!(true || false)); // false
+
+// let m = 7;
+// console.log(++m);  // 8
+
+// console.log(15 % 4); // 3
+
+// let p = 10;
+// p -= 3;
+// console.log(p); // 7
+
+// console.log(5 === "5"); // false
+
+// console.log(true && false || true); // true
+
+// let n = 3;
+// let q = ++n;
+// console.log(n, q); // 4 , 4
+
+// console.log(20 / 5 - 1); // 3
+
+// console.log(8 >= 8); // true
+
+// false ? console.log("Yes") : console.log("No");
+
+//  no
+
+// let r = 6;
+// console.log(r++);
+
+// 7
+
+// let r = 6
+
+// console.log(r++);
+
+
+// concatination method  +
+
+
+let a12 = "hello"
+
+let a13 = "world"
+
+let final = a12 +" "+ a13 
+
+console.log(final);
+
+// Template litral method
+
+let total = `${a12} ${a13}`
+
+console.log(total);
+
+
+// Type Conversion
+
+// 1. implicit Type Conversion
+
+let z = 12
+
+let y = "1"
+
+console.log(typeof(z + y));
+
+// string 
+
+// string anything is String
+
+
+console.log(typeof("1" + "1"));
+console.log(typeof("1" + 1));
+console.log(typeof("1" + true));
+console.log(typeof("1" + undefined));
+console.log(typeof("1" + null));
+console.log(typeof("1" + [1,2]));
+console.log(typeof("1" + {a:1}));
+
+
+// Number 
+
+console.log(typeof(1 + "1"));
+console.log(typeof(1 + 1));
+console.log(typeof(1 + true));
+console.log(typeof(1 + undefined));
+console.log(typeof(1 + null));
+console.log(typeof(1 + [1,2]));
+console.log(typeof(1 + {g:3}));
+
+
+// Boolean 
+
+console.log(typeof(true + "1"));
+console.log(typeof(true + 1));
+console.log(typeof(true + true));
+console.log(typeof(true + undefined));
+console.log(typeof(true + null));
+console.log(typeof(true + [1,2]));
+console.log(typeof(true + {5:4}));
+
+
+
+
+
+
+
+// 2. Explicit Type Conversion
+
+
+// number constractor (Number)
+
+console.log(typeof(1 + Number("1")));
+console.log(Number());
+console.log(Number(""));
+console.log(Number("123"));
+console.log(Number("abc"));
+console.log(Number(1));
+console.log(Number(0));
+console.log(Number(false));
+console.log(Number(true));
+console.log(Number(undefined));
+console.log(Number(null));
+console.log(Number([89,234]));
+console.log(Number({g:6}));
+
+
+// Boolean
+
+console.log(Boolean());
+console.log(Boolean(""));
+console.log(Boolean("123"));
+console.log(Boolean("abc"));
+console.log(Boolean(1));
+console.log(Boolean(-1));
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean(null));
+console.log(Boolean([2]));
+console.log(Boolean({l:3}));
+
+
+
+
+
+
 
 
 
