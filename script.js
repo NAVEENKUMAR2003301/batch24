@@ -451,30 +451,30 @@ let a1 = 10
 // concatination method  +
 
 
-let a12 = "hello"
+// let a12 = "hello"
 
-let a13 = "world"
+// let a13 = "world"
 
-let final = a12 +" "+ a13 
+// let final = a12 +" "+ a13 
 
-console.log(final);
+// console.log(final);
 
-// Template litral method
+// // Template litral method
 
-let total = `${a12} ${a13}`
+// let total = `${a12} ${a13}`
 
-console.log(total);
+// console.log(total);
 
 
 // Type Conversion
 
 // 1. implicit Type Conversion
 
-let z = 12
+// let z = 12
 
-let y = "1"
+// let y = "1"
 
-console.log(typeof(z + y));
+// console.log(typeof(z + y));
 
 // string 
 
@@ -551,6 +551,229 @@ console.log(Boolean(null));
 console.log(Boolean([2]));
 console.log(Boolean({l:3}));
 
+console.clear();
+
+
+
+
+// flow control statement
+
+// 1. conditional Statement
+
+// 1. if statement
+
+// condition true = allow
+
+// if(condition){statement}
+
+// example
+
+if(5=="5"){
+    console.log("its return true");
+    
+}
+
+
+
+// 2. if else statement
+
+// condition true = allow inside if , condition false = allow else
+
+// if(condition) {statement}else{statement}
+
+// example
+
+if(1){
+    console.log("hello");
+    
+}else{
+    console.log("hi");
+    
+}
+
+// 3. else if statement
+
+let hour = 100
+
+if(hour >= 1 && hour <= 6){
+    console.log("morning");
+    
+}else if(hour >= 7 && hour <= 12){
+    console.log("later morning");
+    
+}else if(hour >= 13 && hour <= 18){
+    console.log("afternoon");
+    
+}else if(hour >= 18 && hour <= 20){
+    console.log("evening");
+    
+}else{
+    console.log("night");
+    
+}
+// 4. nested if statement 
+
+let age  = 18
+let weight = 5
+let height = 155
+
+if(age >= 18){
+    if(weight >= 55){
+        if(height >= 155){
+
+            console.log("congradulation you are selected");
+            
+
+        }else{
+            console.log("this height not enough");
+            
+        }
+
+    }else{
+        console.log("this weight not enough");
+        
+    }
+
+}else{
+    console.log("this age not enough");
+    
+}
+
+// 5. switch statement
+
+let trafficLight = "yellow"
+
+switch (trafficLight) {
+  case "red":
+    console.log("stop the vechile");
+    break;
+  case "yellow":
+    console.log("start the vechile");
+    break;
+  case "green":
+    console.log("go the vechile");
+    break;
+}
+
+
+
+// 2. looping Statement
+
+console.log(1);
+console.log(2);
+console.log(3);
+console.log(4);
+console.log(5);
+console.log(6);
+
+
+// 1. for loop
+
+// for(intialiazation ; condition ; iteration){
+//     // statement
+// }
+
+for(let i = 1 ; i<=5 ; i++ ){
+    console.log(i);  // 1 2 3 4 5
+}
+
+
+// let i = 1 ; 1 <= 5 = true ; 1++; = 2
+// let i = 2 ; 2 <= 5 = true ; 2++; = 3
+// let i = 3 ; 3 <= 5 = true ; 3++ = 4
+// let i = 4 ; 4 <= 5 = true ; 4++ = 5
+// let i = 5 ; 5 <= 5 = true ; 5++ = 6
+// let i = 6 ; 6 <= 5 = false
+
+// odd num find
+
+for(let i = 1 ; i <= 10 ; i++){
+    if(i%2==1){
+        console.log("odd :",i);
+        
+    }
+    
+}
+
+// 2. while loop
+
+// intialiazation
+
+// while(condition){
+//     // statement
+
+//     // iteration
+// }
+
+let val = 4
+
+while(val >= 10){
+
+    console.log(val);
+
+    val--
+    
+}
+
+
+//  i = 4 ; 4 >= 0 = true ; log(4)  ; 4-- = 3
+//  i = 3 ; 3 >= 0 = true ; log(3)  ; 3-- = 2
+//  i = 2 ; 2 >= 0 = true ; log(2)  ; 2-- = 1
+//  i = 1 ; 1 >= 0 = true ; log(1)  ; 1-- = 0
+//  i = 0 ; 0 >= 0 = true ; log(0)  ; 0-- = -1
+//  i = -1 ; -1 >= 0 = false
+
+
+
+
+// 3. do while loop
+
+// intialiazation 
+
+// do{
+//     statement ;
+
+//     iteration ;
+// }
+
+// while(condition)
+
+let val1 = 4
+
+do{
+    console.log(val1);
+
+    val1--
+    
+}
+
+while(val1 >= 0 )
+
+// 4. for of loop - string , array , function
+
+let str = "javascript"
+let arr = ["red","black","blue","green"]
+
+for(let i of arr){
+    console.log(i);
+    
+}
+
+
+
+// 5. for in loop - object
+
+let obj = {
+    one : "john",
+    two : "developer",
+    three : 200000
+}
+
+
+for(let a in obj){
+    console.log(obj[a]);
+    
+}
 
 
 
