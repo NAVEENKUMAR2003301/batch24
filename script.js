@@ -775,11 +775,251 @@ for(let a in obj){
     
 }
 
+console.clear();
+
+// function 
+
+// function one(){
+//     // statement
+// }
+
+function one(a){
+    console.log("hi");
+    console.log("hello");
+    console.log(123);
+    console.log(true);
+    console.log(a);
+    
+    
+}
+
+one("hello")
+
+function two(){
+    return 100
+}
+
+let value = two()
+
+console.log(value);
+
+function three(){
+    console.log(value);
+    
+}
+
+three()
+
+
+
+let empDet = {
+
+    eName : "john",
+    eRole : "developer",
+    eSalary : 200000
+
+}
+
+function empDe(){
+    console.log(empDet.eName);
+    console.log(empDet.eRole);
+    console.log(empDet.eSalary);
+    
+}
+
+empDe()
+
+
+// // function Types 
+
+// // 1. named function 
+
+// named("Argument")
+// function named(parameter){
+//     console.log("named function");
+    
+// }
+
+
+// // 2. Annoynmous Function
+
+// let Annoynmous = function(parameter){
+//     console.log("annonymous function");
+    
+// }
+// Annoynmous("Argument")
+
+
+// // Arrow Function
+
+
+// let Arrow = (parameter)=>{
+//     console.log("Arrow Function");
+    
+// }
+
+// Arrow("Argument")
+
+
+
+// Scopes
+
+// var - global scope
+
+// let - block scope
+
+// const - block scope
+
+console.clear();
+
+function scopeCheck(){
+    if(true){
+        var a12 = "global scope"
+        let b12 = "block scope"
+        const c12 = "block scope"
+        console.log(b12);
+        console.log(c12);
+    }
+
+    console.log(a12);
+    
+    
+    
+}
+
+scopeCheck()
+
+console.log(a13);
+
+var a13 = 10
+
+
+let b13 = 12
+
+console.log(b13);
+
+
+const c13 = 13
+
+console.log(c13);
+
+
+named("Argument");
+function named(parameter) {
+  console.log("named function");
+}
+
+// 2. Annoynmous Function
+
+var Annoynmous = function (parameter) {
+    console.log("annonymous function");
+};
+
+Annoynmous("Argument");
+// Arrow Function
+
+var Arrow = (parameter) => {
+    console.log("Arrow Function");
+};
+
+Arrow("Argument");
+
+console.clear();
+
+
+
+// function methods 
+
+// 1. self invoke function 
+
+// (function a(parameter){
+//     alert("hi")
+// })("Argument")
+
+
+// 2. higher order function and csllback function
+
+
+function function1(){
+    console.log("higher order function");
+    
+}
+
+function function2(){
+    console.log("callback function");
+    
+}
+
+
+function1(function2())
+
+// example
+
+
+function add(a,b,callback){ // a = 10, b= 20, callback = sub
+
+    console.log(a+b); // 10 + 20 = 30
+
+    callback(20,20) // sub(20,20)
+    
+
+}
+
+
+function sub(num1,num2){
+    console.log(num1-num2); // 20-20 = 0
+    
+}
+
+
+add(10,20,sub) // 30,0
+
+
+// generator function
+
+
+
+// defalut parameter function
+
+
+function clgForm(a,b,c,d="no"){
+    console.log("name",a);
+    console.log("department",b);
+    console.log("cgpa",c);
+    console.log("disability",d);
+    
+}
+
+clgForm("livin","ece",9.7)
+clgForm("kamal","ece",9.5,"yes")
 
 
 
 
 
+
+function* gen(){
+    yield "first price"
+    yield "second price"
+    yield "jackpet price"
+    yield "0 price"
+    yield "surprice"
+}
+
+let allVal = gen()
+
+// console.log(allVal.next().value);
+// console.log(allVal.next().value);
+// console.log(allVal.next().value);
+// console.log(allVal.next().value);
+
+
+
+
+for(let a3 of allVal){
+    console.log(a3);
+    
+}
 
 
 
