@@ -1021,6 +1021,179 @@ for(let a3 of allVal){
     
 }
 
+console.clear();
+
+
+// 11. Data Structure (ES6 Edition)
+
+// • Spread operator
+
+// [...], {...}
+
+// we can merge two array , object . we can take clone
+
+let arr1 = [1,2,3,4]
+let arr2 = [5,6,7,8]
+
+let total = [...arr1,...arr2,9,10]
+
+console.log(total);
+
+
+let obj1 = {
+    name1 : "a",
+    role  : "trainee",
+    salary: 100000
+}
+
+let obj2 = {
+    name11 : "b",
+    role1  : "developer",
+    salary1: 300000
+}
+
+
+let totalObj = {...obj1,...obj2,role5 : "hello"}
+
+console.log(totalObj);
+
+
+
+
+// • Rest operator
+
+// (...) - function
+
+// we can store multiple argument in single parameter
+
+function rest(a,b,...c){
+    console.log("hello");
+
+    console.log(a,b,c[1]);
+    console.log(c);
+    
+    
+    
+    
+}
+
+rest(1,2,3,4,5,6,7)
+
+// • Destructure
+
+// array
+
+let random = [1,2,3,4]
+
+let one1 = random[0]
+let one2 = random[1]
+let one3 = random[2]
+let one4 = random[3]
+
+console.log(one1 + one4);
+
+// destracture 
+
+let [b11,b2,b3,b4] = random
+
+console.log(b11 + b4);
+
+
+// obj 
+
+let obj11 = {
+    name1 : "john",
+    salary: 100000
+}
+
+let objVal1 = obj11.name1
+let objVal2 = obj11.salary
+
+console.log(objVal1,objVal2);
+
+// destracture 
+
+let {name1,salary} = obj11
+
+console.log(name1,salary);
+
+// nested to normal 
+
+let nested = [1,2,3,[4,5,6,[7]]]
+
+let arrVal7 = nested[3][3][0]
+
+
+let [c1,c2,c3,[c4,c5,c6,[c7]]] = nested
+
+console.log(c6,c7);
+
+console.clear();
+
+
+
+// Array Advance Concept
+
+let arr5 = [1,2,3,4,"hello",true,undefined,null,[1,2],{a:1}]
+
+console.log(arr5);
+console.log(arr5[1]);
+console.log(arr5[0]);
+console.log(arr5[arr5.length-1]);
+
+// homogeneous - we can given same dataType
+
+// hetrogeneous - we can given different dataType inside array
+
+// flexible
+
+// array manipulate method
+
+// condition 
+
+// 1. if you are taking adding method you can add 
+// multiple value
+
+// 2. if you are taking remove method means you can remove
+// only one value
+
+let random1 = [1,2,3,4]
+// pop()    - we can remove last value in array
+
+random1.pop()
+
+// shift() - we can remove first value in array
+
+random1.shift()
+
+// unshift() - we can add first value in array
+
+random1.unshift(0,1)
+
+// push()  - we can add last value in array
+
+random1.push(4,5,6,7)
+
+console.log(random1);
+
+
+// splice() - starting index , delete count , adding value
+
+let random2 = [1,2,3,40,50,60,7]
+
+random2.splice(3,3,4,5,6)
+
+console.log(random2);
+
+
+
+
+
+
+
+
+
+
 
 
 // 3. function
