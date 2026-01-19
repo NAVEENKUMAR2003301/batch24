@@ -1273,7 +1273,169 @@ console.log(random2);
 
 // // // // console.log(reverseVal);
 
-// // // // console.clear();
+console.clear();
+
+
+// array higher order method
+
+
+// function aa(){
+//     console.log("aa");
+    
+// }
+
+// function bb(){
+//     console.log("bb");
+    
+// }
+
+// aa(bb())
+
+// 1. forEach()
+
+let fruit3 = ["apple","orange","banana","cherry"]
+
+let forEachVal = fruit3.forEach((currentElement,indexNumber,TotalArray)=>{
+
+    return(currentElement);
+    
+})
+
+console.log(forEachVal);
+
+
+// 2. map()
+
+let mapVal = fruit3.map((c,i,t)=>{
+
+    return("map :- ",c);
+  
+    
+})
+
+console.log(mapVal);
+
+
+// 3. filter()
+
+let emp = [
+    {eName : "a", eSalary : 100000},
+    {eName : "b", eSalary : 300000},
+    {eName : "c", eSalary : 300000},
+    {eName : "d", eSalary : 400000},
+]
+
+
+let filterVal = emp.filter((c,i,t)=>{
+    return c.eSalary > 200000
+})
+
+console.log(filterVal);
+
+
+// 4. find()
+
+let findVal = emp.find((c,i,t)=>{
+    return c.eSalary > 200000;
+})
+
+console.log(findVal);
+
+
+    
+emp = [
+  { eName: "a", eSalary: 100000 },
+  { eName: "b", eSalary: 300000 },
+  { eName: "c", eSalary: 300000 },
+  { eName: "d", eSalary: 400000 },
+];
+// 5. reduce()
+
+let reduceVal = emp.reduce((acc,c,i,t)=>{
+    return acc + c.eSalary
+
+    //     0   +   1  = 1  
+    //     1   +   3  = 4
+    //     4   +   3  = 7
+    //     7   +   4  = 11
+
+    // return  11  
+
+},0) // 1 // 4  // 7  // 11
+
+console.log(reduceVal);
+
+
+
+
+// 6. some() - OR - ||
+
+let some = [1,2,3,4]
+
+let someVal = some.some((c,i,t)=>{
+    return c%2==1
+
+    // 1%2==1 --> true
+    // 2%2==1 --> false
+    // 3%2==1 --> true
+    // 4%2==1 --> false
+
+    // true || false || true || false = true
+})
+
+console.log(someVal);
+
+some = [2, 2, 2, 4];
+
+// 7. Every() - AND - &&
+
+let everyVal = some.every((c,i,t)=>{
+  return c % 2 == 0;
+})
+
+console.log(everyVal);
+
+
+// 8. sort()
+
+let ran = [1123,9,500,3,8,0]
+
+// 9 500 3 8 0 1123
+// 9 3 8 0 500 1123
+// 3 8 0 9 500 1123
+// 3 0 8 9 500 1123
+// 0 3 8 9 500 1123
+
+let ss = ran.sort()
+
+console.log(ss);
+
+let higherSort = ran.sort((a,b)=>{
+    return b-a
+})
+
+console.log(higherSort);
+
+// arr convert str
+
+// join()
+
+// toString()
+
+let ran1 = [1,2,3,4]
+
+console.log(ran1.join());
+
+console.log(ran1.toString());
+
+
+
+
+
+
+
+
+
 
 
 
