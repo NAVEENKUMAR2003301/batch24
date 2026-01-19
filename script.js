@@ -1187,6 +1187,95 @@ console.log(random2);
 
 
 
+// // // // // Merge: concat, slice, flat, fill, includes, sort, indexOf, lastIndexOf, reverse;
+
+
+// // // // // concat()
+
+// // // // let ex6 = [1,2,3,4]
+// // // // let ex7 = [5,6,7,8]
+
+// // // // let concatVal = ex6.concat(ex7,9,10)
+
+// // // // console.log(concatVal);
+
+
+// // // // // slice()
+
+
+// // // // let ex8 = [6,7,8,1,2,3,9,10]
+
+// // // // let sliceVal = ex8.slice(3,6) // Starting Index, End Index + 1
+
+// // // // console.log(sliceVal);
+
+
+// // // // // flat()
+
+// // // // let ex9 = [1,2,3,[4,5,6,[7,8,[9,[10,11,[12]]]]]]
+
+// // // // let flatVal = ex9.flat(Infinity)
+
+// // // // console.log(flatVal[flatVal.length-2]);
+
+
+// // // // // fill()
+
+// // // // let ex10  = [1,2,3,4] // 1, two , 3 , 4
+
+// // // // ex10.fill("two",1,2) // value , Starting Index , Ending index + 1
+
+// // // // console.log(ex10);
+
+
+// // // // // includes()
+
+// // // // let ex11 = [1,5,3,2]
+
+// // // // let includesVal = ex11.includes(4)
+
+// // // // console.log(includesVal);
+
+
+// // // // // sort()
+
+// // // // let ex12 = ["E",2,1000,9,65,532,4,7,"b"] // 2 > 1.000
+
+// // // // let sortVal = ex12.sort()
+
+
+// // // // console.log(sortVal);
+
+
+
+// // // // // indexOf
+
+// // // // let ex13 = [1,2,3,2,1]
+
+// // // // let indexOfVal = ex13.indexOf(2,2) // value , from Index
+
+// // // // console.log(indexOfVal);
+
+// // // // // lastIndexOf
+
+// // // // let ex14 = [1,2,3,2,1]
+
+// // // // let lastIndexOfVal = ex14.lastIndexOf(2,2) // value,from Index
+
+// // // // console.log(lastIndexOfVal);
+
+
+// // // // // Reverse 
+
+// // // // let ex15 = [1,2,3,4]
+
+// // // // let reverseVal = ex15.reverse()
+
+// // // // console.log(reverseVal);
+
+// // // // console.clear();
+
+
 
 
 
