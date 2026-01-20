@@ -1428,6 +1428,196 @@ console.log(ran1.join());
 
 console.log(ran1.toString());
 
+console.clear();
+
+
+// 13. String Methods
+
+// charAt(),  index ---> value
+
+let str1 = "javascript";
+
+let charAtVal = str1.charAt(1)
+
+console.log(charAtVal);
+
+
+
+// charCodeAt(), index ---> asscii value
+
+str1 = "javascript";
+
+
+let charCodeAtVal = str1.charCodeAt(1)
+
+console.log(charCodeAtVal);
+
+
+// length,
+
+str1 = "javascript";
+
+let lengthVal = str1.length
+
+console.log(lengthVal);
+
+
+// slice(),
+
+str1 = "javascript";
+
+let sliceVal1 = str1.slice(2,5) // SI , EI + 1
+
+console.log(sliceVal1);
+
+
+
+// toUpperCase(), 
+
+str1 = "JavaScript";
+
+let upper = str1.toUpperCase()
+
+console.log(upper);
+
+
+
+
+// toLowerCase(), 
+
+str1 = "JavaScript";
+
+let lower = str1.toLowerCase()
+
+console.log(lower);
+
+
+
+// trim(),
+
+str1 = " JavaScript ";
+
+let trimVal = str1.trim()
+
+console.log(trimVal);
+
+// trimStart()
+
+str1 = " JavaScript ";
+
+let trimStartVal = str1.trimStart()
+
+console.log(trimStartVal);
+
+
+// trimEnd()
+
+str1 = " JavaScript ";
+
+let trimEndVal = str1.trimEnd()
+
+console.log(trimEndVal);
+
+
+
+// includes(),
+
+str1 = " JavaScript ";
+
+let includesVal1 = str1.includes("c")
+
+console.log(includesVal1);
+
+
+
+// split(), 
+
+
+str1 = " Java-Script ";
+
+
+let splitVal = str1.split("a")
+
+console.log(splitVal);
+
+
+
+
+// indexOf(), value -- > index   axis : l --> r
+
+let str2 = "hello-world"
+
+let indexOfVal1 = str2.indexOf("o",5) // "value","fromIndexNumber"
+
+console.log(indexOfVal1);
+
+
+// lastIndexOf(), value ---> index axis : r --> l
+
+str2 = "hello-world";
+
+let lastIndexOfVal1 = str2.lastIndexOf("l",8)
+
+console.log(lastIndexOfVal1);
+
+
+
+// replace(), 
+
+str2 = "hello-world";
+
+let replaceVal = str2.replace("hello","javascript") // "what value u want change","which value you want"
+
+console.log(replaceVal);
+
+// repeat()
+
+str2 = "hello-world";
+
+let repeatVal = str2.repeat(1)
+
+console.log(repeatVal);
+
+
+
+
+// startsWith(), 
+
+str2 = "hello-world";
+
+let startsWithVal = str2.startsWith("h")
+
+console.log(startsWithVal);
+
+
+
+// endsWith()
+
+str2 = "hello-world";
+
+let endsWithVal = str2.endsWith("d")
+
+console.log(endsWithVal);
+
+console.clear();
+
+
+// Date()
+
+
+let dateVal = Date()
+
+console.log(dateVal);
+
+// get()
+
+// set()
+
+
+
+
+
+
 
 
 
