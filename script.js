@@ -1605,14 +1605,335 @@ console.clear();
 // Date()
 
 
-let dateVal = Date()
+let dateVal = new Date()
 
 console.log(dateVal);
 
 // get()
 
+// year
+
+let year = dateVal.getFullYear()
+
+console.log(year);
+
+// date 
+
+let date11 = dateVal.getDate()
+
+console.log(date11);
+
+// month 
+
+let month = dateVal.getMonth()
+
+console.log(month);
+
+// day
+
+let day = dateVal.getDay()
+
+console.log(day);
+
+// hour 
+
+let hour1 =  dateVal.getHours()
+
+console.log(hour1);
+
+// minutes
+
+let minutes = dateVal.getMinutes()
+
+console.log(minutes);
+
+// seconds 
+
+let seconds = dateVal.getSeconds()
+
+console.log(seconds);
+
+
+// local time 
+
+
+// time
+
+let time = dateVal.toLocaleTimeString()
+
+console.log(time);
+
+let date12 = dateVal.toLocaleDateString()
+
+console.log(date12);
+
+let both = dateVal.toLocaleString()
+
+console.log(both);
+
+
+
 // set()
 
+let date13 = new Date()
+
+console.log(date13);
+
+// year
+
+date13.setFullYear(2003)
+
+console.log(date13);
+
+// month 
+
+date13.setMonth(2)
+
+console.log(date13);
+
+// date
+
+date13.setDate(23)
+
+console.log(date13);
+
+// hours
+
+date13.setHours(1)
+
+console.log(date13);
+
+// minutes 
+
+date13.setMinutes(55)
+
+console.log(date13);
+
+// seconds 
+
+date13.setSeconds(55)
+
+console.log(date13);
+
+
+let d1 = new Date().getHours()
+
+console.log(d1);
+
+console.clear();
+
+
+
+// birth day finder
+
+
+// let yearval = prompt("enter your dob year")
+// let monthval   = prompt("enter your dob month")
+// let dateval    = prompt("enter your dob date")
+
+// let date14 = new Date()
+
+// date14.setFullYear(yearval);
+// date14.setMonth(monthval - 1);
+// date14.setDate(dateval);
+
+// console.log(date14);
+
+// let dayval = date14.getDay()
+
+
+
+// let dayVal1 = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
+
+// alert(dayVal1[dayval]);
+
+
+// Async
+
+
+// setTimeOut
+
+// setTimeout(()=>{
+
+//   let time1 = new Date();
+
+//   let timeVal = time1.toLocaleTimeString();
+
+//   console.log(timeVal);
+  
+// },5000)
+
+// // setInterval
+
+// setInterval(()=>{
+
+//     let time1 = new Date()
+
+//     let timeVal = time1.toLocaleTimeString()
+
+//     console.log(timeVal);
+    
+    
+// },1000)
+
+
+// function one(){
+//      console.log("one");
+     
+// }
+
+// function two(){
+//     console.log("two");
+    
+// }
+
+// function three(){
+//     console.log("three");
+    
+// }
+
+// one()
+// setTimeout(two,1000)
+// three()
+
+// promise 
+
+// resolve - successful state
+
+// reject  - error
+
+// bending - coming data
+
+
+// fetch("https://fakestoreapi.com/products/")
+// .then((a)=>{
+
+//    return a.json()
+
+//     // json -- js ==> .json()
+    
+// })
+// .then((jsData)=>{
+//     jsData.forEach((c,i,t)=>{
+
+//         console.log(c.title);
+
+        
+//     })
+    
+// })
+
+// .catch((error)=>{
+//     console.log(error.message);
+    
+// })
+// .finally((c)=>{
+//     console.log(c);
+    
+// })
+
+
+console.clear();
+
+
+// Dom - Document object model
+
+// selecting
+
+// getElementByTagName
+
+let h1tag = document.getElementsByTagName("h1")
+
+console.log(h1tag);
+
+// getElementByClassName
+
+let className = document.getElementsByClassName("one")
+
+console.log(className);
+
+// getElementById
+
+let idName = document.getElementById("two")
+
+console.log(idName);
+
+
+// queryselector
+
+// tag
+
+let tagName = document.querySelector("h2")
+
+console.log(tagName);
+
+// class
+
+let class1 = document.querySelector(".first")
+
+console.log(class1);
+
+// id
+
+let idname = document.querySelector("#second")
+
+console.log(idname);
+
+
+let h3 = document.querySelector("h3")
+
+console.log(h3);
+
+
+
+
+
+// queryselectorAll
+
+let h3All = document.querySelectorAll("h3")
+
+console.log(h3All);
+
+console.clear();
+
+
+
+
+// traversing
+
+// parent select method
+
+let child1 = document.querySelector(".child1")
+
+console.log(child1);
+console.log(child1.parentElement);//parentElement
+
+// child select method
+
+let parent = document.querySelector(".parent")
+
+console.log(parent);
+console.log(parent.firstElementChild); // firstElementChild
+console.log(parent.lastElementChild);//lastElementChild
+console.log(parent.firstChild);
+console.log(parent.lastChild);
+
+
+// sibling select method
+
+let child2 = document.querySelector(".child2")
+
+console.log(child2);
+console.log(child2.nextElementSibling); // nextElementSibling
+console.log(child2.previousElementSibling);// previousElementSibling
+
+let child3 = child2.nextElementSibling
+
+console.log(child3.nextElementSibling);
+
+
+
+// manipulating
 
 
 
@@ -1637,9 +1958,26 @@ console.log(dateVal);
 
 
 
-// 3. function
 
-// 4. Date
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
