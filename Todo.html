@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .two{
+        animation: left 1s linear;
+        cursor: pointer;
+    }
+
+    @keyframes left{
+        0%{
+            transform: translateX(-100px);
+        }
+        100%{
+            transform: translateX(0px);
+        }
+    }
+
+    ul>li:hover{
+        color: white;
+        background-color: red;
+    }
+</style>
+<body>
+    
+
+
+    <input type="text" value="hello">
+    <button>add</button>
+
+    <ul></ul>
+
+
+    <script>
+
+        let input = document.querySelector("input")
+        let button= document.querySelector("button")
+        let ul    = document.querySelector("ul") 
+
+        button.addEventListener("click",()=>{
+
+            let inputValue = input.value
+
+            // new tag
+
+            let li = document.createElement("li")
+
+            li.innerText = inputValue
+
+            li.style.color= "green"
+            // li.style.backgroundColor = "violet"
+
+            li.setAttribute("class","two")
+
+            ul.prepend(li)
+
+            li.addEventListener("click",()=>{
+                li.remove()
+            })
+
+        })
+
+
+
+    </script>
+</body>
+</ht

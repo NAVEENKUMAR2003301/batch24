@@ -1,1939 +1,2028 @@
-// // // variable
+// // // // variable
 
-// // // var   - function scope , global scope
+// // // // var   - function scope , global scope
 
-// // // let   - block scope
+// // // // let   - block scope
 
-// // // const - block scope
+// // // // const - block scope
 
 
-// // // rules
+// // // // rules
 
-// // // var
+// // // // var
 
-// // var chocolateBox  = 10         // declration // intialiazation
+// // // var chocolateBox  = 10         // declration // intialiazation
 
-// // chocolateBox      = 15         // reuse   // reIntialazation
+// // // chocolateBox      = 15         // reuse   // reIntialazation
 
-// // var chocolateBox  = 20         // reDeclration
+// // // var chocolateBox  = 20         // reDeclration
 
 
-// // console.log(chocolateBox)
+// // // console.log(chocolateBox)
 
 
-// // // let 
+// // // // let 
 
-// // let a = 12 // dec   // intia
+// // // let a = 12 // dec   // intia
 
-// // a     = 15 // reuse // reIntia
+// // // a     = 15 // reuse // reIntia
 
-// // // let a = 50 not reDecl
+// // // // let a = 50 not reDecl
 
-// // console.log(a);
+// // // console.log(a);
 
 
-// // // const 
+// // // // const 
 
-// // const b = 21 // decle  // intia
+// // // const b = 21 // decle  // intia
 
-// // // b       = 23  not accept reuse , reIntialiazation
+// // // // b       = 23  not accept reuse , reIntialiazation
 
-// // // const b = 30  // not accept reDec
+// // // // const b = 30  // not accept reDec
 
-// // console.log(b)
+// // // console.log(b)
 
 
-// // // examples 
+// // // // examples 
 
 
-// // // Question 1
-// // var a = 10;
-// // a = 20;
-// // console.log(a);  // 20
+// // // // Question 1
+// // // var a = 10;
+// // // a = 20;
+// // // console.log(a);  // 20
 
-// // // Question 2
-// // var b = 5;
-// // var b = 15;
-// // console.log(b);  // 15
+// // // // Question 2
+// // // var b = 5;
+// // // var b = 15;
+// // // console.log(b);  // 15
 
-// // // Question 3
-// // let c = 30;
-// // c = 40;
-// // console.log(c);  // 40 
+// // // // Question 3
+// // // let c = 30;
+// // // c = 40;
+// // // console.log(c);  // 40 
 
-// // // Question 4
-// // let d = 25;
-// // console.log(d);  // 25
+// // // // Question 4
+// // // let d = 25;
+// // // console.log(d);  // 25
 
-// // // Question 5
-// // const e = 50;
-// // console.log(e);  // 50
+// // // // Question 5
+// // // const e = 50;
+// // // console.log(e);  // 50
 
-// // // Question 6
-// // var f = 10;
-// // f = f + 5;
-// // console.log(f);  // 15
+// // // // Question 6
+// // // var f = 10;
+// // // f = f + 5;
+// // // console.log(f);  // 15
 
-// // // Question 7
-// // let g = 100;
-// // g = g - 20;
-// // console.log(g);  // 80
+// // // // Question 7
+// // // let g = 100;
+// // // g = g - 20;
+// // // console.log(g);  // 80
 
-// // // Question 8
-// // const h = 2;
-// // const result = h * 5;
-// // console.log(result);  // 10
+// // // // Question 8
+// // // const h = 2;
+// // // const result = h * 5;
+// // // console.log(result);  // 10
 
-// // // Question 9
-// // // var i = 1;
-// // // i++;
-// // // console.log(i);  // 
+// // // // Question 9
+// // // // var i = 1;
+// // // // i++;
+// // // // console.log(i);  // 
 
-// // // // Question 10
-// // // let j = 10;
-// // // j += 5;
-// // // console.log(j);
+// // // // // Question 10
+// // // // let j = 10;
+// // // // j += 5;
+// // // // console.log(j);
 
-// // // Question 11
-// // const k = "Java";
-// // console.log(k); // "java"
+// // // // Question 11
+// // // const k = "Java";
+// // // console.log(k); // "java"
 
-// // // Question 12
-// // var l = 10;
-// // l = l * 2;
-// // console.log(l); // 20
+// // // // Question 12
+// // // var l = 10;
+// // // l = l * 2;
+// // // console.log(l); // 20
 
 
 
-// var a = 30
-// let b = a
-// var a = 50
-// const c = a
+// // var a = 30
+// // let b = a
+// // var a = 50
+// // const c = a
 
-// console.log(a); // 50
+// // console.log(a); // 50
 
-// printing statement
+// // printing statement
 
-// 1. console.log()
+// // 1. console.log()
 
-let a = 10
+// let a = 10
 
-console.log(a);
-console.log(100)
+// console.log(a);
+// console.log(100)
 
 
-// 2. alert()
+// // 2. alert()
 
-// alert("hi hello there")
+// // alert("hi hello there")
 
-// 3. confirm()
+// // 3. confirm()
 
-// confirm("did you like js")
+// // confirm("did you like js")
 
 
-// 4. prompt()
+// // 4. prompt()
 
-// prompt("what is your name")
+// // prompt("what is your name")
 
-// 5. document.writeln()
+// // 5. document.writeln()
 
-// document.writeln("hello")
+// // document.writeln("hello")
 
 
-// i want print user name
+// // i want print user name
 
-// let name1 = prompt("what is your name")
-// console.log(name1);
+// // let name1 = prompt("what is your name")
+// // console.log(name1);
 
-// i want msg convey to user side in pop
+// // i want msg convey to user side in pop
 
-// alert("hello!!!")
+// // alert("hello!!!")
 
 
 
 
-// i want to ask question user side
+// // i want to ask question user side
 
-// confirm("did you like apple")
+// // confirm("did you like apple")
 
-// i want to print msg in ui
+// // i want to print msg in ui
 
-// document.writeln("hello")
+// // document.writeln("hello")
 
 
-// console method 
+// // console method 
 
-// 1. console.log()
+// // 1. console.log()
 
-let b = 40
+// let b = 40
 
-console.log(b);
+// console.log(b);
 
 
-// 2. console.warn()
+// // 2. console.warn()
 
-console.warn(100);
+// console.warn(100);
 
 
-// 3. console.error()
+// // 3. console.error()
 
-console.error(100);
+// console.error(100);
 
 
-// 4. console.clear()
+// // 4. console.clear()
 
-console.clear()
+// console.clear()
 
-// DataType 
+// // DataType 
 
-// 1. primitive datatypes
+// // 1. primitive datatypes
 
-// 1. string - ""
+// // 1. string - ""
 
-   let c = "123"
+//    let c = "123"
 
-   console.log(c);
+//    console.log(c);
    
 
-   console.log(typeof(c));
+//    console.log(typeof(c));
    
 
-// 2. number
+// // 2. number
 
-let d = 1234
+// let d = 1234
 
-console.log(typeof(d));
+// console.log(typeof(d));
 
 
-// 3. boolean
+// // 3. boolean
 
-let e = false
+// let e = false
 
-console.log(typeof(e));
+// console.log(typeof(e));
 
 
-// 4. undefined
+// // 4. undefined
 
-let f ;
+// let f ;
 
-console.log(f);
+// console.log(f);
 
 
-// 5. null
+// // 5. null
 
-// let g = prompt()
+// // let g = prompt()
 
-// console.log(g);
+// // console.log(g);
 
 
 
 
-// 2. non primitive datatypes
+// // 2. non primitive datatypes
 
-// 1. Array - index number
+// // 1. Array - index number
 
-// syntex  = []
+// // syntex  = []
 
-let fruit = ["cherry","apple","orange","pineApple","green"]
+// let fruit = ["cherry","apple","orange","pineApple","green"]
 
-console.log(fruit);
-console.log(fruit[0]);
-console.log(fruit[2]);
+// console.log(fruit);
+// console.log(fruit[0]);
+// console.log(fruit[2]);
 
 
-console.log(fruit[0]);
-console.log(fruit[fruit.length-1]);
+// console.log(fruit[0]);
+// console.log(fruit[fruit.length-1]);
 
 
-// 2. object - dot notation method
+// // 2. object - dot notation method
 
-// syntex = {}
+// // syntex = {}
 
-let fruit1 = {
-    fruit : ["apple","cherry","pineApple","orange"],
-    color : "green"
-}
+// let fruit1 = {
+//     fruit : ["apple","cherry","pineApple","orange"],
+//     color : "green"
+// }
 
-console.log(fruit1);
-console.log(fruit1.color);
-console.log(fruit1.fruit[1]);
+// console.log(fruit1);
+// console.log(fruit1.color);
+// console.log(fruit1.fruit[1]);
 
 
-console.clear()
+// console.clear()
 
-// operators 
+// // operators 
 
-// Arithmetic operator
+// // Arithmetic operator
 
-// Addition   +
+// // Addition   +
 
-console.log(1 + 2);
+// console.log(1 + 2);
 
-// subraction  - 
+// // subraction  - 
 
-console.log(2 - 2);
+// console.log(2 - 2);
 
-// multiplication * 
+// // multiplication * 
 
-console.log(4 * 4);
+// console.log(4 * 4);
 
 
-// division   / 
+// // division   / 
 
-console.log(5 / 5);
+// console.log(5 / 5);
 
-// modulus   % 
+// // modulus   % 
 
-console.log(10 % 5);
+// console.log(10 % 5);
 
-// exponencial  ** 
+// // exponencial  ** 
 
-console.log(5**3); // 5^3  = 5*5*5 = 125
+// console.log(5**3); // 5^3  = 5*5*5 = 125
 
 
-// increament   ++ = +1
+// // increament   ++ = +1
 
-// post  = var++
-// pre   = ++var
+// // post  = var++
+// // pre   = ++var
 
-let h = 4
+// let h = 4
 
-h++
+// h++
 
-console.log(h);
+// console.log(h);
 
 
-let j = 2   // null
+// let j = 2   // null
 
-j     = j++ // 2
+// j     = j++ // 2
 
-console.log(j);
+// console.log(j);
 
 
-let k = 5 
+// let k = 5 
 
-k     = ++k
+// k     = ++k
 
-console.log(k); // 6
+// console.log(k); // 6
 
-let l = 2   
-let m = l++ // l = 2
+// let l = 2   
+// let m = l++ // l = 2
 
-console.log("l",l); // l = 3
-console.log("m",m); // m = 2
+// console.log("l",l); // l = 3
+// console.log("m",m); // m = 2
 
-// decreament -- = -1 
+// // decreament -- = -1 
 
-// post = var --
-// pre  = --var
+// // post = var --
+// // pre  = --var
 
 
-console.clear();
+// console.clear();
 
 
 
-// Assignment operator
+// // Assignment operator
 
-let b1 = 12
-let a1 = 10
+// let b1 = 12
+// let a1 = 10
 
-    // a1 = a1 + b1  // a1 += b1
+//     // a1 = a1 + b1  // a1 += b1
 
-    a1 **= b1
+//     a1 **= b1
 
-    console.log(a1);
+//     console.log(a1);
     
 
-// relational OR comparision operator
+// // relational OR comparision operator
 
 
-// meaning       syntex     example     result
+// // meaning       syntex     example     result
 
-// 1. lessThen    <         5<5        false
+// // 1. lessThen    <         5<5        false
 
-// 2. greaterThen >         65>1       true
+// // 2. greaterThen >         65>1       true
 
-// 3. lessThenEq  <=        5<=5       true
+// // 3. lessThenEq  <=        5<=5       true
 
-// 4. GreaterThenEq >=      6>=4       true
+// // 4. GreaterThenEq >=      6>=4       true
 
-// 5. loosyTypeEq   ==      5=="5"     true
+// // 5. loosyTypeEq   ==      5=="5"     true
 
-// 6. StrictlyType  ===     5==="5"    false
+// // 6. StrictlyType  ===     5==="5"    false
 
-// 7. loosyNotEq    !=       5!="5"    false   
+// // 7. loosyNotEq    !=       5!="5"    false   
 
-// 8. StrictlyNotEq !==      6!==6     false
-
-
-
-// logical operator 
-
- // AND   - &&
-
- // true && true = true
- // true && false = false
-
- // OR    - ||
-
- // false || false = false
-
-//  true ||  false = true
-
-
-// NOT --  !
-
-// !(true&&false) = !(false) = true
-
-// ternary operator
-
-
-// condition ? statement : statement
+// // 8. StrictlyNotEq !==      6!==6     false
 
 
 
-// (true && false ) ? alert("hello1") : alert("hello2")
+// // logical operator 
+
+//  // AND   - &&
+
+//  // true && true = true
+//  // true && false = false
+
+//  // OR    - ||
+
+//  // false || false = false
+
+// //  true ||  false = true
+
+
+// // NOT --  !
+
+// // !(true&&false) = !(false) = true
+
+// // ternary operator
+
+
+// // condition ? statement : statement
 
 
 
-// JavaScript Operators – Code Practice (15 Questions)
+// // (true && false ) ? alert("hello1") : alert("hello2")
 
 
-// console.log(6 * 2 + 4);  //  16
 
-// let a = 5;
-// let b = a++;
-// console.log(a, b); // 6 , 5
-
-// console.log(10 == "10"); // true
-
-// let x = 4;
-// x **= 2;
-// console.log(x); // 16
-
-// console.log(!(true || false)); // false
-
-// let m = 7;
-// console.log(++m);  // 8
-
-// console.log(15 % 4); // 3
-
-// let p = 10;
-// p -= 3;
-// console.log(p); // 7
-
-// console.log(5 === "5"); // false
-
-// console.log(true && false || true); // true
-
-// let n = 3;
-// let q = ++n;
-// console.log(n, q); // 4 , 4
-
-// console.log(20 / 5 - 1); // 3
-
-// console.log(8 >= 8); // true
-
-// false ? console.log("Yes") : console.log("No");
-
-//  no
-
-// let r = 6;
-// console.log(r++);
-
-// 7
-
-// let r = 6
-
-// console.log(r++);
+// // JavaScript Operators – Code Practice (15 Questions)
 
 
-// concatination method  +
+// // console.log(6 * 2 + 4);  //  16
+
+// // let a = 5;
+// // let b = a++;
+// // console.log(a, b); // 6 , 5
+
+// // console.log(10 == "10"); // true
+
+// // let x = 4;
+// // x **= 2;
+// // console.log(x); // 16
+
+// // console.log(!(true || false)); // false
+
+// // let m = 7;
+// // console.log(++m);  // 8
+
+// // console.log(15 % 4); // 3
+
+// // let p = 10;
+// // p -= 3;
+// // console.log(p); // 7
+
+// // console.log(5 === "5"); // false
+
+// // console.log(true && false || true); // true
+
+// // let n = 3;
+// // let q = ++n;
+// // console.log(n, q); // 4 , 4
+
+// // console.log(20 / 5 - 1); // 3
+
+// // console.log(8 >= 8); // true
+
+// // false ? console.log("Yes") : console.log("No");
+
+// //  no
+
+// // let r = 6;
+// // console.log(r++);
+
+// // 7
+
+// // let r = 6
+
+// // console.log(r++);
 
 
-// let a12 = "hello"
+// // concatination method  +
 
-// let a13 = "world"
 
-// let final = a12 +" "+ a13 
+// // let a12 = "hello"
 
-// console.log(final);
+// // let a13 = "world"
 
-// // Template litral method
+// // let final = a12 +" "+ a13 
 
-// let total = `${a12} ${a13}`
+// // console.log(final);
+
+// // // Template litral method
+
+// // let total = `${a12} ${a13}`
+
+// // console.log(total);
+
+
+// // Type Conversion
+
+// // 1. implicit Type Conversion
+
+// // let z = 12
+
+// // let y = "1"
+
+// // console.log(typeof(z + y));
+
+// // string 
+
+// // string anything is String
+
+
+// console.log(typeof("1" + "1"));
+// console.log(typeof("1" + 1));
+// console.log(typeof("1" + true));
+// console.log(typeof("1" + undefined));
+// console.log(typeof("1" + null));
+// console.log(typeof("1" + [1,2]));
+// console.log(typeof("1" + {a:1}));
+
+
+// // Number 
+
+// console.log(typeof(1 + "1"));
+// console.log(typeof(1 + 1));
+// console.log(typeof(1 + true));
+// console.log(typeof(1 + undefined));
+// console.log(typeof(1 + null));
+// console.log(typeof(1 + [1,2]));
+// console.log(typeof(1 + {g:3}));
+
+
+// // Boolean 
+
+// console.log(typeof(true + "1"));
+// console.log(typeof(true + 1));
+// console.log(typeof(true + true));
+// console.log(typeof(true + undefined));
+// console.log(typeof(true + null));
+// console.log(typeof(true + [1,2]));
+// console.log(typeof(true + {5:4}));
+
+
+
+
+
+
+
+// // 2. Explicit Type Conversion
+
+
+// // number constractor (Number)
+
+// console.log(typeof(1 + Number("1")));
+// console.log(Number());
+// console.log(Number(""));
+// console.log(Number("123"));
+// console.log(Number("abc"));
+// console.log(Number(1));
+// console.log(Number(0));
+// console.log(Number(false));
+// console.log(Number(true));
+// console.log(Number(undefined));
+// console.log(Number(null));
+// console.log(Number([89,234]));
+// console.log(Number({g:6}));
+
+
+// // Boolean
+
+// console.log(Boolean());
+// console.log(Boolean(""));
+// console.log(Boolean("123"));
+// console.log(Boolean("abc"));
+// console.log(Boolean(1));
+// console.log(Boolean(-1));
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean(null));
+// console.log(Boolean([2]));
+// console.log(Boolean({l:3}));
+
+// console.clear();
+
+
+
+
+// // flow control statement
+
+// // 1. conditional Statement
+
+// // 1. if statement
+
+// // condition true = allow
+
+// // if(condition){statement}
+
+// // example
+
+// if(5=="5"){
+//     console.log("its return true");
+    
+// }
+
+
+
+// // 2. if else statement
+
+// // condition true = allow inside if , condition false = allow else
+
+// // if(condition) {statement}else{statement}
+
+// // example
+
+// if(1){
+//     console.log("hello");
+    
+// }else{
+//     console.log("hi");
+    
+// }
+
+// // 3. else if statement
+
+// let hour = 100
+
+// if(hour >= 1 && hour <= 6){
+//     console.log("morning");
+    
+// }else if(hour >= 7 && hour <= 12){
+//     console.log("later morning");
+    
+// }else if(hour >= 13 && hour <= 18){
+//     console.log("afternoon");
+    
+// }else if(hour >= 18 && hour <= 20){
+//     console.log("evening");
+    
+// }else{
+//     console.log("night");
+    
+// }
+// // 4. nested if statement 
+
+// let age  = 18
+// let weight = 5
+// let height = 155
+
+// if(age >= 18){
+//     if(weight >= 55){
+//         if(height >= 155){
+
+//             console.log("congradulation you are selected");
+            
+
+//         }else{
+//             console.log("this height not enough");
+            
+//         }
+
+//     }else{
+//         console.log("this weight not enough");
+        
+//     }
+
+// }else{
+//     console.log("this age not enough");
+    
+// }
+
+// // 5. switch statement
+
+// let trafficLight = "yellow"
+
+// switch (trafficLight) {
+//   case "red":
+//     console.log("stop the vechile");
+//     break;
+//   case "yellow":
+//     console.log("start the vechile");
+//     break;
+//   case "green":
+//     console.log("go the vechile");
+//     break;
+// }
+
+
+
+// // 2. looping Statement
+
+// console.log(1);
+// console.log(2);
+// console.log(3);
+// console.log(4);
+// console.log(5);
+// console.log(6);
+
+
+// // 1. for loop
+
+// // for(intialiazation ; condition ; iteration){
+// //     // statement
+// // }
+
+// for(let i = 1 ; i<=5 ; i++ ){
+//     console.log(i);  // 1 2 3 4 5
+// }
+
+
+// // let i = 1 ; 1 <= 5 = true ; 1++; = 2
+// // let i = 2 ; 2 <= 5 = true ; 2++; = 3
+// // let i = 3 ; 3 <= 5 = true ; 3++ = 4
+// // let i = 4 ; 4 <= 5 = true ; 4++ = 5
+// // let i = 5 ; 5 <= 5 = true ; 5++ = 6
+// // let i = 6 ; 6 <= 5 = false
+
+// // odd num find
+
+// for(let i = 1 ; i <= 10 ; i++){
+//     if(i%2==1){
+//         console.log("odd :",i);
+        
+//     }
+    
+// }
+
+// // 2. while loop
+
+// // intialiazation
+
+// // while(condition){
+// //     // statement
+
+// //     // iteration
+// // }
+
+// let val = 4
+
+// while(val >= 10){
+
+//     console.log(val);
+
+//     val--
+    
+// }
+
+
+// //  i = 4 ; 4 >= 0 = true ; log(4)  ; 4-- = 3
+// //  i = 3 ; 3 >= 0 = true ; log(3)  ; 3-- = 2
+// //  i = 2 ; 2 >= 0 = true ; log(2)  ; 2-- = 1
+// //  i = 1 ; 1 >= 0 = true ; log(1)  ; 1-- = 0
+// //  i = 0 ; 0 >= 0 = true ; log(0)  ; 0-- = -1
+// //  i = -1 ; -1 >= 0 = false
+
+
+
+
+// // 3. do while loop
+
+// // intialiazation 
+
+// // do{
+// //     statement ;
+
+// //     iteration ;
+// // }
+
+// // while(condition)
+
+// let val1 = 4
+
+// do{
+//     console.log(val1);
+
+//     val1--
+    
+// }
+
+// while(val1 >= 0 )
+
+// // 4. for of loop - string , array , function
+
+// let str = "javascript"
+// let arr = ["red","black","blue","green"]
+
+// for(let i of arr){
+//     console.log(i);
+    
+// }
+
+
+
+// // 5. for in loop - object
+
+// let obj = {
+//     one : "john",
+//     two : "developer",
+//     three : 200000
+// }
+
+
+// for(let a in obj){
+//     console.log(obj[a]);
+    
+// }
+
+// console.clear();
+
+// // function 
+
+// // function one(){
+// //     // statement
+// // }
+
+// function one(a){
+//     console.log("hi");
+//     console.log("hello");
+//     console.log(123);
+//     console.log(true);
+//     console.log(a);
+    
+    
+// }
+
+// one("hello")
+
+// function two(){
+//     return 100
+// }
+
+// let value = two()
+
+// console.log(value);
+
+// function three(){
+//     console.log(value);
+    
+// }
+
+// three()
+
+
+
+// let empDet = {
+
+//     eName : "john",
+//     eRole : "developer",
+//     eSalary : 200000
+
+// }
+
+// function empDe(){
+//     console.log(empDet.eName);
+//     console.log(empDet.eRole);
+//     console.log(empDet.eSalary);
+    
+// }
+
+// empDe()
+
+
+// // // function Types 
+
+// // // 1. named function 
+
+// // named("Argument")
+// // function named(parameter){
+// //     console.log("named function");
+    
+// // }
+
+
+// // // 2. Annoynmous Function
+
+// // let Annoynmous = function(parameter){
+// //     console.log("annonymous function");
+    
+// // }
+// // Annoynmous("Argument")
+
+
+// // // Arrow Function
+
+
+// // let Arrow = (parameter)=>{
+// //     console.log("Arrow Function");
+    
+// // }
+
+// // Arrow("Argument")
+
+
+
+// // Scopes
+
+// // var - global scope
+
+// // let - block scope
+
+// // const - block scope
+
+// console.clear();
+
+// function scopeCheck(){
+//     if(true){
+//         var a12 = "global scope"
+//         let b12 = "block scope"
+//         const c12 = "block scope"
+//         console.log(b12);
+//         console.log(c12);
+//     }
+
+//     console.log(a12);
+    
+    
+    
+// }
+
+// scopeCheck()
+
+// console.log(a13);
+
+// var a13 = 10
+
+
+// let b13 = 12
+
+// console.log(b13);
+
+
+// const c13 = 13
+
+// console.log(c13);
+
+
+// named("Argument");
+// function named(parameter) {
+//   console.log("named function");
+// }
+
+// // 2. Annoynmous Function
+
+// var Annoynmous = function (parameter) {
+//     console.log("annonymous function");
+// };
+
+// Annoynmous("Argument");
+// // Arrow Function
+
+// var Arrow = (parameter) => {
+//     console.log("Arrow Function");
+// };
+
+// Arrow("Argument");
+
+// console.clear();
+
+
+
+// // function methods 
+
+// // 1. self invoke function 
+
+// // (function a(parameter){
+// //     alert("hi")
+// // })("Argument")
+
+
+// // 2. higher order function and csllback function
+
+
+// function function1(){
+//     console.log("higher order function");
+    
+// }
+
+// function function2(){
+//     console.log("callback function");
+    
+// }
+
+
+// function1(function2())
+
+// // example
+
+
+// function add(a,b,callback){ // a = 10, b= 20, callback = sub
+
+//     console.log(a+b); // 10 + 20 = 30
+
+//     callback(20,20) // sub(20,20)
+    
+
+// }
+
+
+// function sub(num1,num2){
+//     console.log(num1-num2); // 20-20 = 0
+    
+// }
+
+
+// add(10,20,sub) // 30,0
+
+
+// // generator function
+
+
+
+// // defalut parameter function
+
+
+// function clgForm(a,b,c,d="no"){
+//     console.log("name",a);
+//     console.log("department",b);
+//     console.log("cgpa",c);
+//     console.log("disability",d);
+    
+// }
+
+// clgForm("livin","ece",9.7)
+// clgForm("kamal","ece",9.5,"yes")
+
+
+
+
+
+
+// function* gen(){
+//     yield "first price"
+//     yield "second price"
+//     yield "jackpet price"
+//     yield "0 price"
+//     yield "surprice"
+// }
+
+// let allVal = gen()
+
+// // console.log(allVal.next().value);
+// // console.log(allVal.next().value);
+// // console.log(allVal.next().value);
+// // console.log(allVal.next().value);
+
+
+
+
+// for(let a3 of allVal){
+//     console.log(a3);
+    
+// }
+
+// console.clear();
+
+
+// // 11. Data Structure (ES6 Edition)
+
+// // • Spread operator
+
+// // [...], {...}
+
+// // we can merge two array , object . we can take clone
+
+// let arr1 = [1,2,3,4]
+// let arr2 = [5,6,7,8]
+
+// let total = [...arr1,...arr2,9,10]
 
 // console.log(total);
 
 
-// Type Conversion
-
-// 1. implicit Type Conversion
-
-// let z = 12
-
-// let y = "1"
-
-// console.log(typeof(z + y));
-
-// string 
-
-// string anything is String
-
-
-console.log(typeof("1" + "1"));
-console.log(typeof("1" + 1));
-console.log(typeof("1" + true));
-console.log(typeof("1" + undefined));
-console.log(typeof("1" + null));
-console.log(typeof("1" + [1,2]));
-console.log(typeof("1" + {a:1}));
-
-
-// Number 
-
-console.log(typeof(1 + "1"));
-console.log(typeof(1 + 1));
-console.log(typeof(1 + true));
-console.log(typeof(1 + undefined));
-console.log(typeof(1 + null));
-console.log(typeof(1 + [1,2]));
-console.log(typeof(1 + {g:3}));
-
-
-// Boolean 
-
-console.log(typeof(true + "1"));
-console.log(typeof(true + 1));
-console.log(typeof(true + true));
-console.log(typeof(true + undefined));
-console.log(typeof(true + null));
-console.log(typeof(true + [1,2]));
-console.log(typeof(true + {5:4}));
-
-
-
-
-
-
-
-// 2. Explicit Type Conversion
-
-
-// number constractor (Number)
-
-console.log(typeof(1 + Number("1")));
-console.log(Number());
-console.log(Number(""));
-console.log(Number("123"));
-console.log(Number("abc"));
-console.log(Number(1));
-console.log(Number(0));
-console.log(Number(false));
-console.log(Number(true));
-console.log(Number(undefined));
-console.log(Number(null));
-console.log(Number([89,234]));
-console.log(Number({g:6}));
-
-
-// Boolean
-
-console.log(Boolean());
-console.log(Boolean(""));
-console.log(Boolean("123"));
-console.log(Boolean("abc"));
-console.log(Boolean(1));
-console.log(Boolean(-1));
-console.log(Boolean(0));
-console.log(Boolean(undefined));
-console.log(Boolean(null));
-console.log(Boolean([2]));
-console.log(Boolean({l:3}));
-
-console.clear();
-
-
-
-
-// flow control statement
-
-// 1. conditional Statement
-
-// 1. if statement
-
-// condition true = allow
-
-// if(condition){statement}
-
-// example
-
-if(5=="5"){
-    console.log("its return true");
-    
-}
-
-
-
-// 2. if else statement
-
-// condition true = allow inside if , condition false = allow else
-
-// if(condition) {statement}else{statement}
-
-// example
-
-if(1){
-    console.log("hello");
-    
-}else{
-    console.log("hi");
-    
-}
-
-// 3. else if statement
-
-let hour = 100
-
-if(hour >= 1 && hour <= 6){
-    console.log("morning");
-    
-}else if(hour >= 7 && hour <= 12){
-    console.log("later morning");
-    
-}else if(hour >= 13 && hour <= 18){
-    console.log("afternoon");
-    
-}else if(hour >= 18 && hour <= 20){
-    console.log("evening");
-    
-}else{
-    console.log("night");
-    
-}
-// 4. nested if statement 
-
-let age  = 18
-let weight = 5
-let height = 155
-
-if(age >= 18){
-    if(weight >= 55){
-        if(height >= 155){
-
-            console.log("congradulation you are selected");
-            
-
-        }else{
-            console.log("this height not enough");
-            
-        }
-
-    }else{
-        console.log("this weight not enough");
-        
-    }
-
-}else{
-    console.log("this age not enough");
-    
-}
-
-// 5. switch statement
-
-let trafficLight = "yellow"
-
-switch (trafficLight) {
-  case "red":
-    console.log("stop the vechile");
-    break;
-  case "yellow":
-    console.log("start the vechile");
-    break;
-  case "green":
-    console.log("go the vechile");
-    break;
-}
-
-
-
-// 2. looping Statement
-
-console.log(1);
-console.log(2);
-console.log(3);
-console.log(4);
-console.log(5);
-console.log(6);
-
-
-// 1. for loop
-
-// for(intialiazation ; condition ; iteration){
-//     // statement
+// let obj1 = {
+//     name1 : "a",
+//     role  : "trainee",
+//     salary: 100000
 // }
 
-for(let i = 1 ; i<=5 ; i++ ){
-    console.log(i);  // 1 2 3 4 5
-}
-
-
-// let i = 1 ; 1 <= 5 = true ; 1++; = 2
-// let i = 2 ; 2 <= 5 = true ; 2++; = 3
-// let i = 3 ; 3 <= 5 = true ; 3++ = 4
-// let i = 4 ; 4 <= 5 = true ; 4++ = 5
-// let i = 5 ; 5 <= 5 = true ; 5++ = 6
-// let i = 6 ; 6 <= 5 = false
-
-// odd num find
-
-for(let i = 1 ; i <= 10 ; i++){
-    if(i%2==1){
-        console.log("odd :",i);
-        
-    }
-    
-}
-
-// 2. while loop
-
-// intialiazation
-
-// while(condition){
-//     // statement
-
-//     // iteration
-// }
-
-let val = 4
-
-while(val >= 10){
-
-    console.log(val);
-
-    val--
-    
-}
-
-
-//  i = 4 ; 4 >= 0 = true ; log(4)  ; 4-- = 3
-//  i = 3 ; 3 >= 0 = true ; log(3)  ; 3-- = 2
-//  i = 2 ; 2 >= 0 = true ; log(2)  ; 2-- = 1
-//  i = 1 ; 1 >= 0 = true ; log(1)  ; 1-- = 0
-//  i = 0 ; 0 >= 0 = true ; log(0)  ; 0-- = -1
-//  i = -1 ; -1 >= 0 = false
-
-
-
-
-// 3. do while loop
-
-// intialiazation 
-
-// do{
-//     statement ;
-
-//     iteration ;
-// }
-
-// while(condition)
-
-let val1 = 4
-
-do{
-    console.log(val1);
-
-    val1--
-    
-}
-
-while(val1 >= 0 )
-
-// 4. for of loop - string , array , function
-
-let str = "javascript"
-let arr = ["red","black","blue","green"]
-
-for(let i of arr){
-    console.log(i);
-    
-}
-
-
-
-// 5. for in loop - object
-
-let obj = {
-    one : "john",
-    two : "developer",
-    three : 200000
-}
-
-
-for(let a in obj){
-    console.log(obj[a]);
-    
-}
-
-console.clear();
-
-// function 
-
-// function one(){
-//     // statement
-// }
-
-function one(a){
-    console.log("hi");
-    console.log("hello");
-    console.log(123);
-    console.log(true);
-    console.log(a);
-    
-    
-}
-
-one("hello")
-
-function two(){
-    return 100
-}
-
-let value = two()
-
-console.log(value);
-
-function three(){
-    console.log(value);
-    
-}
-
-three()
-
-
-
-let empDet = {
-
-    eName : "john",
-    eRole : "developer",
-    eSalary : 200000
-
-}
-
-function empDe(){
-    console.log(empDet.eName);
-    console.log(empDet.eRole);
-    console.log(empDet.eSalary);
-    
-}
-
-empDe()
-
-
-// // function Types 
-
-// // 1. named function 
-
-// named("Argument")
-// function named(parameter){
-//     console.log("named function");
-    
+// let obj2 = {
+//     name11 : "b",
+//     role1  : "developer",
+//     salary1: 300000
 // }
 
 
-// // 2. Annoynmous Function
+// let totalObj = {...obj1,...obj2,role5 : "hello"}
 
-// let Annoynmous = function(parameter){
-//     console.log("annonymous function");
-    
-// }
-// Annoynmous("Argument")
+// console.log(totalObj);
 
 
-// // Arrow Function
 
 
-// let Arrow = (parameter)=>{
-//     console.log("Arrow Function");
-    
-// }
+// // • Rest operator
 
-// Arrow("Argument")
+// // (...) - function
 
+// // we can store multiple argument in single parameter
 
+// function rest(a,b,...c){
+//     console.log("hello");
 
-// Scopes
-
-// var - global scope
-
-// let - block scope
-
-// const - block scope
-
-console.clear();
-
-function scopeCheck(){
-    if(true){
-        var a12 = "global scope"
-        let b12 = "block scope"
-        const c12 = "block scope"
-        console.log(b12);
-        console.log(c12);
-    }
-
-    console.log(a12);
-    
-    
-    
-}
-
-scopeCheck()
-
-console.log(a13);
-
-var a13 = 10
-
-
-let b13 = 12
-
-console.log(b13);
-
-
-const c13 = 13
-
-console.log(c13);
-
-
-named("Argument");
-function named(parameter) {
-  console.log("named function");
-}
-
-// 2. Annoynmous Function
-
-var Annoynmous = function (parameter) {
-    console.log("annonymous function");
-};
-
-Annoynmous("Argument");
-// Arrow Function
-
-var Arrow = (parameter) => {
-    console.log("Arrow Function");
-};
-
-Arrow("Argument");
-
-console.clear();
-
-
-
-// function methods 
-
-// 1. self invoke function 
-
-// (function a(parameter){
-//     alert("hi")
-// })("Argument")
-
-
-// 2. higher order function and csllback function
-
-
-function function1(){
-    console.log("higher order function");
-    
-}
-
-function function2(){
-    console.log("callback function");
-    
-}
-
-
-function1(function2())
-
-// example
-
-
-function add(a,b,callback){ // a = 10, b= 20, callback = sub
-
-    console.log(a+b); // 10 + 20 = 30
-
-    callback(20,20) // sub(20,20)
-    
-
-}
-
-
-function sub(num1,num2){
-    console.log(num1-num2); // 20-20 = 0
-    
-}
-
-
-add(10,20,sub) // 30,0
-
-
-// generator function
-
-
-
-// defalut parameter function
-
-
-function clgForm(a,b,c,d="no"){
-    console.log("name",a);
-    console.log("department",b);
-    console.log("cgpa",c);
-    console.log("disability",d);
-    
-}
-
-clgForm("livin","ece",9.7)
-clgForm("kamal","ece",9.5,"yes")
-
-
-
-
-
-
-function* gen(){
-    yield "first price"
-    yield "second price"
-    yield "jackpet price"
-    yield "0 price"
-    yield "surprice"
-}
-
-let allVal = gen()
-
-// console.log(allVal.next().value);
-// console.log(allVal.next().value);
-// console.log(allVal.next().value);
-// console.log(allVal.next().value);
-
-
-
-
-for(let a3 of allVal){
-    console.log(a3);
-    
-}
-
-console.clear();
-
-
-// 11. Data Structure (ES6 Edition)
-
-// • Spread operator
-
-// [...], {...}
-
-// we can merge two array , object . we can take clone
-
-let arr1 = [1,2,3,4]
-let arr2 = [5,6,7,8]
-
-let total = [...arr1,...arr2,9,10]
-
-console.log(total);
-
-
-let obj1 = {
-    name1 : "a",
-    role  : "trainee",
-    salary: 100000
-}
-
-let obj2 = {
-    name11 : "b",
-    role1  : "developer",
-    salary1: 300000
-}
-
-
-let totalObj = {...obj1,...obj2,role5 : "hello"}
-
-console.log(totalObj);
-
-
-
-
-// • Rest operator
-
-// (...) - function
-
-// we can store multiple argument in single parameter
-
-function rest(a,b,...c){
-    console.log("hello");
-
-    console.log(a,b,c[1]);
-    console.log(c);
-    
-    
-    
-    
-}
-
-rest(1,2,3,4,5,6,7)
-
-// • Destructure
-
-// array
-
-let random = [1,2,3,4]
-
-let one1 = random[0]
-let one2 = random[1]
-let one3 = random[2]
-let one4 = random[3]
-
-console.log(one1 + one4);
-
-// destracture 
-
-let [b11,b2,b3,b4] = random
-
-console.log(b11 + b4);
-
-
-// obj 
-
-let obj11 = {
-    name1 : "john",
-    salary: 100000
-}
-
-let objVal1 = obj11.name1
-let objVal2 = obj11.salary
-
-console.log(objVal1,objVal2);
-
-// destracture 
-
-let {name1,salary} = obj11
-
-console.log(name1,salary);
-
-// nested to normal 
-
-let nested = [1,2,3,[4,5,6,[7]]]
-
-let arrVal7 = nested[3][3][0]
-
-
-let [c1,c2,c3,[c4,c5,c6,[c7]]] = nested
-
-console.log(c6,c7);
-
-console.clear();
-
-
-
-// Array Advance Concept
-
-let arr5 = [1,2,3,4,"hello",true,undefined,null,[1,2],{a:1}]
-
-console.log(arr5);
-console.log(arr5[1]);
-console.log(arr5[0]);
-console.log(arr5[arr5.length-1]);
-
-// homogeneous - we can given same dataType
-
-// hetrogeneous - we can given different dataType inside array
-
-// flexible
-
-// array manipulate method
-
-// condition 
-
-// 1. if you are taking adding method you can add 
-// multiple value
-
-// 2. if you are taking remove method means you can remove
-// only one value
-
-let random1 = [1,2,3,4]
-// pop()    - we can remove last value in array
-
-random1.pop()
-
-// shift() - we can remove first value in array
-
-random1.shift()
-
-// unshift() - we can add first value in array
-
-random1.unshift(0,1)
-
-// push()  - we can add last value in array
-
-random1.push(4,5,6,7)
-
-console.log(random1);
-
-
-// splice() - starting index , delete count , adding value
-
-let random2 = [1,2,3,40,50,60,7]
-
-random2.splice(3,3,4,5,6)
-
-console.log(random2);
-
-
-
-// // // // // Merge: concat, slice, flat, fill, includes, sort, indexOf, lastIndexOf, reverse;
-
-
-// // // // // concat()
-
-// // // // let ex6 = [1,2,3,4]
-// // // // let ex7 = [5,6,7,8]
-
-// // // // let concatVal = ex6.concat(ex7,9,10)
-
-// // // // console.log(concatVal);
-
-
-// // // // // slice()
-
-
-// // // // let ex8 = [6,7,8,1,2,3,9,10]
-
-// // // // let sliceVal = ex8.slice(3,6) // Starting Index, End Index + 1
-
-// // // // console.log(sliceVal);
-
-
-// // // // // flat()
-
-// // // // let ex9 = [1,2,3,[4,5,6,[7,8,[9,[10,11,[12]]]]]]
-
-// // // // let flatVal = ex9.flat(Infinity)
-
-// // // // console.log(flatVal[flatVal.length-2]);
-
-
-// // // // // fill()
-
-// // // // let ex10  = [1,2,3,4] // 1, two , 3 , 4
-
-// // // // ex10.fill("two",1,2) // value , Starting Index , Ending index + 1
-
-// // // // console.log(ex10);
-
-
-// // // // // includes()
-
-// // // // let ex11 = [1,5,3,2]
-
-// // // // let includesVal = ex11.includes(4)
-
-// // // // console.log(includesVal);
-
-
-// // // // // sort()
-
-// // // // let ex12 = ["E",2,1000,9,65,532,4,7,"b"] // 2 > 1.000
-
-// // // // let sortVal = ex12.sort()
-
-
-// // // // console.log(sortVal);
-
-
-
-// // // // // indexOf
-
-// // // // let ex13 = [1,2,3,2,1]
-
-// // // // let indexOfVal = ex13.indexOf(2,2) // value , from Index
-
-// // // // console.log(indexOfVal);
-
-// // // // // lastIndexOf
-
-// // // // let ex14 = [1,2,3,2,1]
-
-// // // // let lastIndexOfVal = ex14.lastIndexOf(2,2) // value,from Index
-
-// // // // console.log(lastIndexOfVal);
-
-
-// // // // // Reverse 
-
-// // // // let ex15 = [1,2,3,4]
-
-// // // // let reverseVal = ex15.reverse()
-
-// // // // console.log(reverseVal);
-
-console.clear();
-
-
-// array higher order method
-
-
-// function aa(){
-//     console.log("aa");
-    
-// }
-
-// function bb(){
-//     console.log("bb");
-    
-// }
-
-// aa(bb())
-
-// 1. forEach()
-
-let fruit3 = ["apple","orange","banana","cherry"]
-
-let forEachVal = fruit3.forEach((currentElement,indexNumber,TotalArray)=>{
-
-    return(currentElement);
-    
-})
-
-console.log(forEachVal);
-
-
-// 2. map()
-
-let mapVal = fruit3.map((c,i,t)=>{
-
-    return("map :- ",c);
-  
-    
-})
-
-console.log(mapVal);
-
-
-// 3. filter()
-
-let emp = [
-    {eName : "a", eSalary : 100000},
-    {eName : "b", eSalary : 300000},
-    {eName : "c", eSalary : 300000},
-    {eName : "d", eSalary : 400000},
-]
-
-
-let filterVal = emp.filter((c,i,t)=>{
-    return c.eSalary > 200000
-})
-
-console.log(filterVal);
-
-
-// 4. find()
-
-let findVal = emp.find((c,i,t)=>{
-    return c.eSalary > 200000;
-})
-
-console.log(findVal);
-
-
-    
-emp = [
-  { eName: "a", eSalary: 100000 },
-  { eName: "b", eSalary: 300000 },
-  { eName: "c", eSalary: 300000 },
-  { eName: "d", eSalary: 400000 },
-];
-// 5. reduce()
-
-let reduceVal = emp.reduce((acc,c,i,t)=>{
-    return acc + c.eSalary
-
-    //     0   +   1  = 1  
-    //     1   +   3  = 4
-    //     4   +   3  = 7
-    //     7   +   4  = 11
-
-    // return  11  
-
-},0) // 1 // 4  // 7  // 11
-
-console.log(reduceVal);
-
-
-
-
-// 6. some() - OR - ||
-
-let some = [1,2,3,4]
-
-let someVal = some.some((c,i,t)=>{
-    return c%2==1
-
-    // 1%2==1 --> true
-    // 2%2==1 --> false
-    // 3%2==1 --> true
-    // 4%2==1 --> false
-
-    // true || false || true || false = true
-})
-
-console.log(someVal);
-
-some = [2, 2, 2, 4];
-
-// 7. Every() - AND - &&
-
-let everyVal = some.every((c,i,t)=>{
-  return c % 2 == 0;
-})
-
-console.log(everyVal);
-
-
-// 8. sort()
-
-let ran = [1123,9,500,3,8,0]
-
-// 9 500 3 8 0 1123
-// 9 3 8 0 500 1123
-// 3 8 0 9 500 1123
-// 3 0 8 9 500 1123
-// 0 3 8 9 500 1123
-
-let ss = ran.sort()
-
-console.log(ss);
-
-let higherSort = ran.sort((a,b)=>{
-    return b-a
-})
-
-console.log(higherSort);
-
-// arr convert str
-
-// join()
-
-// toString()
-
-let ran1 = [1,2,3,4]
-
-console.log(ran1.join());
-
-console.log(ran1.toString());
-
-console.clear();
-
-
-// 13. String Methods
-
-// charAt(),  index ---> value
-
-let str1 = "javascript";
-
-let charAtVal = str1.charAt(1)
-
-console.log(charAtVal);
-
-
-
-// charCodeAt(), index ---> asscii value
-
-str1 = "javascript";
-
-
-let charCodeAtVal = str1.charCodeAt(1)
-
-console.log(charCodeAtVal);
-
-
-// length,
-
-str1 = "javascript";
-
-let lengthVal = str1.length
-
-console.log(lengthVal);
-
-
-// slice(),
-
-str1 = "javascript";
-
-let sliceVal1 = str1.slice(2,5) // SI , EI + 1
-
-console.log(sliceVal1);
-
-
-
-// toUpperCase(), 
-
-str1 = "JavaScript";
-
-let upper = str1.toUpperCase()
-
-console.log(upper);
-
-
-
-
-// toLowerCase(), 
-
-str1 = "JavaScript";
-
-let lower = str1.toLowerCase()
-
-console.log(lower);
-
-
-
-// trim(),
-
-str1 = " JavaScript ";
-
-let trimVal = str1.trim()
-
-console.log(trimVal);
-
-// trimStart()
-
-str1 = " JavaScript ";
-
-let trimStartVal = str1.trimStart()
-
-console.log(trimStartVal);
-
-
-// trimEnd()
-
-str1 = " JavaScript ";
-
-let trimEndVal = str1.trimEnd()
-
-console.log(trimEndVal);
-
-
-
-// includes(),
-
-str1 = " JavaScript ";
-
-let includesVal1 = str1.includes("c")
-
-console.log(includesVal1);
-
-
-
-// split(), 
-
-
-str1 = " Java-Script ";
-
-
-let splitVal = str1.split("a")
-
-console.log(splitVal);
-
-
-
-
-// indexOf(), value -- > index   axis : l --> r
-
-let str2 = "hello-world"
-
-let indexOfVal1 = str2.indexOf("o",5) // "value","fromIndexNumber"
-
-console.log(indexOfVal1);
-
-
-// lastIndexOf(), value ---> index axis : r --> l
-
-str2 = "hello-world";
-
-let lastIndexOfVal1 = str2.lastIndexOf("l",8)
-
-console.log(lastIndexOfVal1);
-
-
-
-// replace(), 
-
-str2 = "hello-world";
-
-let replaceVal = str2.replace("hello","javascript") // "what value u want change","which value you want"
-
-console.log(replaceVal);
-
-// repeat()
-
-str2 = "hello-world";
-
-let repeatVal = str2.repeat(1)
-
-console.log(repeatVal);
-
-
-
-
-// startsWith(), 
-
-str2 = "hello-world";
-
-let startsWithVal = str2.startsWith("h")
-
-console.log(startsWithVal);
-
-
-
-// endsWith()
-
-str2 = "hello-world";
-
-let endsWithVal = str2.endsWith("d")
-
-console.log(endsWithVal);
-
-console.clear();
-
-
-// Date()
-
-
-let dateVal = new Date()
-
-console.log(dateVal);
-
-// get()
-
-// year
-
-let year = dateVal.getFullYear()
-
-console.log(year);
-
-// date 
-
-let date11 = dateVal.getDate()
-
-console.log(date11);
-
-// month 
-
-let month = dateVal.getMonth()
-
-console.log(month);
-
-// day
-
-let day = dateVal.getDay()
-
-console.log(day);
-
-// hour 
-
-let hour1 =  dateVal.getHours()
-
-console.log(hour1);
-
-// minutes
-
-let minutes = dateVal.getMinutes()
-
-console.log(minutes);
-
-// seconds 
-
-let seconds = dateVal.getSeconds()
-
-console.log(seconds);
-
-
-// local time 
-
-
-// time
-
-let time = dateVal.toLocaleTimeString()
-
-console.log(time);
-
-let date12 = dateVal.toLocaleDateString()
-
-console.log(date12);
-
-let both = dateVal.toLocaleString()
-
-console.log(both);
-
-
-
-// set()
-
-let date13 = new Date()
-
-console.log(date13);
-
-// year
-
-date13.setFullYear(2003)
-
-console.log(date13);
-
-// month 
-
-date13.setMonth(2)
-
-console.log(date13);
-
-// date
-
-date13.setDate(23)
-
-console.log(date13);
-
-// hours
-
-date13.setHours(1)
-
-console.log(date13);
-
-// minutes 
-
-date13.setMinutes(55)
-
-console.log(date13);
-
-// seconds 
-
-date13.setSeconds(55)
-
-console.log(date13);
-
-
-let d1 = new Date().getHours()
-
-console.log(d1);
-
-console.clear();
-
-
-
-// birth day finder
-
-
-// let yearval = prompt("enter your dob year")
-// let monthval   = prompt("enter your dob month")
-// let dateval    = prompt("enter your dob date")
-
-// let date14 = new Date()
-
-// date14.setFullYear(yearval);
-// date14.setMonth(monthval - 1);
-// date14.setDate(dateval);
-
-// console.log(date14);
-
-// let dayval = date14.getDay()
-
-
-
-// let dayVal1 = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
-
-// alert(dayVal1[dayval]);
-
-
-// Async
-
-
-// setTimeOut
-
-// setTimeout(()=>{
-
-//   let time1 = new Date();
-
-//   let timeVal = time1.toLocaleTimeString();
-
-//   console.log(timeVal);
-  
-// },5000)
-
-// // setInterval
-
-// setInterval(()=>{
-
-//     let time1 = new Date()
-
-//     let timeVal = time1.toLocaleTimeString()
-
-//     console.log(timeVal);
-    
-    
-// },1000)
-
-
-// function one(){
-//      console.log("one");
-     
-// }
-
-// function two(){
-//     console.log("two");
-    
-// }
-
-// function three(){
-//     console.log("three");
-    
-// }
-
-// one()
-// setTimeout(two,1000)
-// three()
-
-// promise 
-
-// resolve - successful state
-
-// reject  - error
-
-// bending - coming data
-
-
-// fetch("https://fakestoreapi.com/products/")
-// .then((a)=>{
-
-//    return a.json()
-
-//     // json -- js ==> .json()
-    
-// })
-// .then((jsData)=>{
-//     jsData.forEach((c,i,t)=>{
-
-//         console.log(c.title);
-
-        
-//     })
-    
-// })
-
-// .catch((error)=>{
-//     console.log(error.message);
-    
-// })
-// .finally((c)=>{
+//     console.log(a,b,c[1]);
 //     console.log(c);
     
+    
+    
+    
+// }
+
+// rest(1,2,3,4,5,6,7)
+
+// // • Destructure
+
+// // array
+
+// let random = [1,2,3,4]
+
+// let one1 = random[0]
+// let one2 = random[1]
+// let one3 = random[2]
+// let one4 = random[3]
+
+// console.log(one1 + one4);
+
+// // destracture 
+
+// let [b11,b2,b3,b4] = random
+
+// console.log(b11 + b4);
+
+
+// // obj 
+
+// let obj11 = {
+//     name1 : "john",
+//     salary: 100000
+// }
+
+// let objVal1 = obj11.name1
+// let objVal2 = obj11.salary
+
+// console.log(objVal1,objVal2);
+
+// // destracture 
+
+// let {name1,salary} = obj11
+
+// console.log(name1,salary);
+
+// // nested to normal 
+
+// let nested = [1,2,3,[4,5,6,[7]]]
+
+// let arrVal7 = nested[3][3][0]
+
+
+// let [c1,c2,c3,[c4,c5,c6,[c7]]] = nested
+
+// console.log(c6,c7);
+
+// console.clear();
+
+
+
+// // Array Advance Concept
+
+// let arr5 = [1,2,3,4,"hello",true,undefined,null,[1,2],{a:1}]
+
+// console.log(arr5);
+// console.log(arr5[1]);
+// console.log(arr5[0]);
+// console.log(arr5[arr5.length-1]);
+
+// // homogeneous - we can given same dataType
+
+// // hetrogeneous - we can given different dataType inside array
+
+// // flexible
+
+// // array manipulate method
+
+// // condition 
+
+// // 1. if you are taking adding method you can add 
+// // multiple value
+
+// // 2. if you are taking remove method means you can remove
+// // only one value
+
+// let random1 = [1,2,3,4]
+// // pop()    - we can remove last value in array
+
+// random1.pop()
+
+// // shift() - we can remove first value in array
+
+// random1.shift()
+
+// // unshift() - we can add first value in array
+
+// random1.unshift(0,1)
+
+// // push()  - we can add last value in array
+
+// random1.push(4,5,6,7)
+
+// console.log(random1);
+
+
+// // splice() - starting index , delete count , adding value
+
+// let random2 = [1,2,3,40,50,60,7]
+
+// random2.splice(3,3,4,5,6)
+
+// console.log(random2);
+
+
+
+// // // // // // Merge: concat, slice, flat, fill, includes, sort, indexOf, lastIndexOf, reverse;
+
+
+// // // // // // concat()
+
+// // // // // let ex6 = [1,2,3,4]
+// // // // // let ex7 = [5,6,7,8]
+
+// // // // // let concatVal = ex6.concat(ex7,9,10)
+
+// // // // // console.log(concatVal);
+
+
+// // // // // // slice()
+
+
+// // // // // let ex8 = [6,7,8,1,2,3,9,10]
+
+// // // // // let sliceVal = ex8.slice(3,6) // Starting Index, End Index + 1
+
+// // // // // console.log(sliceVal);
+
+
+// // // // // // flat()
+
+// // // // // let ex9 = [1,2,3,[4,5,6,[7,8,[9,[10,11,[12]]]]]]
+
+// // // // // let flatVal = ex9.flat(Infinity)
+
+// // // // // console.log(flatVal[flatVal.length-2]);
+
+
+// // // // // // fill()
+
+// // // // // let ex10  = [1,2,3,4] // 1, two , 3 , 4
+
+// // // // // ex10.fill("two",1,2) // value , Starting Index , Ending index + 1
+
+// // // // // console.log(ex10);
+
+
+// // // // // // includes()
+
+// // // // // let ex11 = [1,5,3,2]
+
+// // // // // let includesVal = ex11.includes(4)
+
+// // // // // console.log(includesVal);
+
+
+// // // // // // sort()
+
+// // // // // let ex12 = ["E",2,1000,9,65,532,4,7,"b"] // 2 > 1.000
+
+// // // // // let sortVal = ex12.sort()
+
+
+// // // // // console.log(sortVal);
+
+
+
+// // // // // // indexOf
+
+// // // // // let ex13 = [1,2,3,2,1]
+
+// // // // // let indexOfVal = ex13.indexOf(2,2) // value , from Index
+
+// // // // // console.log(indexOfVal);
+
+// // // // // // lastIndexOf
+
+// // // // // let ex14 = [1,2,3,2,1]
+
+// // // // // let lastIndexOfVal = ex14.lastIndexOf(2,2) // value,from Index
+
+// // // // // console.log(lastIndexOfVal);
+
+
+// // // // // // Reverse 
+
+// // // // // let ex15 = [1,2,3,4]
+
+// // // // // let reverseVal = ex15.reverse()
+
+// // // // // console.log(reverseVal);
+
+// console.clear();
+
+
+// // array higher order method
+
+
+// // function aa(){
+// //     console.log("aa");
+    
+// // }
+
+// // function bb(){
+// //     console.log("bb");
+    
+// // }
+
+// // aa(bb())
+
+// // 1. forEach()
+
+// let fruit3 = ["apple","orange","banana","cherry"]
+
+// let forEachVal = fruit3.forEach((currentElement,indexNumber,TotalArray)=>{
+
+//     return(currentElement);
+    
 // })
 
-
-console.clear();
-
-
-// Dom - Document object model
-
-// selecting
-
-// getElementByTagName
-
-let h1tag = document.getElementsByTagName("h1")
-
-console.log(h1tag);
-
-// getElementByClassName
-
-let className = document.getElementsByClassName("one")
-
-console.log(className);
-
-// getElementById
-
-let idName = document.getElementById("two")
-
-console.log(idName);
+// console.log(forEachVal);
 
 
-// queryselector
+// // 2. map()
 
-// tag
+// let mapVal = fruit3.map((c,i,t)=>{
 
-let tagName = document.querySelector("h2")
+//     return("map :- ",c);
+  
+    
+// })
 
-console.log(tagName);
-
-// class
-
-let class1 = document.querySelector(".first")
-
-console.log(class1);
-
-// id
-
-let idname = document.querySelector("#second")
-
-console.log(idname);
+// console.log(mapVal);
 
 
-let h3 = document.querySelector("h3")
+// // 3. filter()
 
-console.log(h3);
-
-
-
-
-
-// queryselectorAll
-
-let h3All = document.querySelectorAll("h3")
-
-console.log(h3All);
-
-console.clear();
+// let emp = [
+//     {eName : "a", eSalary : 100000},
+//     {eName : "b", eSalary : 300000},
+//     {eName : "c", eSalary : 300000},
+//     {eName : "d", eSalary : 400000},
+// ]
 
 
+// let filterVal = emp.filter((c,i,t)=>{
+//     return c.eSalary > 200000
+// })
+
+// console.log(filterVal);
 
 
-// traversing
+// // 4. find()
 
-// parent select method
+// let findVal = emp.find((c,i,t)=>{
+//     return c.eSalary > 200000;
+// })
 
-let child1 = document.querySelector(".child1")
-
-console.log(child1);
-console.log(child1.parentElement);//parentElement
-
-// child select method
-
-let parent = document.querySelector(".parent")
-
-console.log(parent);
-console.log(parent.firstElementChild); // firstElementChild
-console.log(parent.lastElementChild);//lastElementChild
-console.log(parent.firstChild);
-console.log(parent.lastChild);
+// console.log(findVal);
 
 
-// sibling select method
+    
+// emp = [
+//   { eName: "a", eSalary: 100000 },
+//   { eName: "b", eSalary: 300000 },
+//   { eName: "c", eSalary: 300000 },
+//   { eName: "d", eSalary: 400000 },
+// ];
+// // 5. reduce()
 
-let child2 = document.querySelector(".child2")
+// let reduceVal = emp.reduce((acc,c,i,t)=>{
+//     return acc + c.eSalary
 
-console.log(child2);
-console.log(child2.nextElementSibling); // nextElementSibling
-console.log(child2.previousElementSibling);// previousElementSibling
+//     //     0   +   1  = 1  
+//     //     1   +   3  = 4
+//     //     4   +   3  = 7
+//     //     7   +   4  = 11
 
-let child3 = child2.nextElementSibling
+//     // return  11  
 
-console.log(child3.nextElementSibling);
+// },0) // 1 // 4  // 7  // 11
+
+// console.log(reduceVal);
 
 
 
-// manipulating
+
+// // 6. some() - OR - ||
+
+// let some = [1,2,3,4]
+
+// let someVal = some.some((c,i,t)=>{
+//     return c%2==1
+
+//     // 1%2==1 --> true
+//     // 2%2==1 --> false
+//     // 3%2==1 --> true
+//     // 4%2==1 --> false
+
+//     // true || false || true || false = true
+// })
+
+// console.log(someVal);
+
+// some = [2, 2, 2, 4];
+
+// // 7. Every() - AND - &&
+
+// let everyVal = some.every((c,i,t)=>{
+//   return c % 2 == 0;
+// })
+
+// console.log(everyVal);
+
+
+// // 8. sort()
+
+// let ran = [1123,9,500,3,8,0]
+
+// // 9 500 3 8 0 1123
+// // 9 3 8 0 500 1123
+// // 3 8 0 9 500 1123
+// // 3 0 8 9 500 1123
+// // 0 3 8 9 500 1123
+
+// let ss = ran.sort()
+
+// console.log(ss);
+
+// let higherSort = ran.sort((a,b)=>{
+//     return b-a
+// })
+
+// console.log(higherSort);
+
+// // arr convert str
+
+// // join()
+
+// // toString()
+
+// let ran1 = [1,2,3,4]
+
+// console.log(ran1.join());
+
+// console.log(ran1.toString());
+
+// console.clear();
+
+
+// // 13. String Methods
+
+// // charAt(),  index ---> value
+
+// let str1 = "javascript";
+
+// let charAtVal = str1.charAt(1)
+
+// console.log(charAtVal);
+
+
+
+// // charCodeAt(), index ---> asscii value
+
+// str1 = "javascript";
+
+
+// let charCodeAtVal = str1.charCodeAt(1)
+
+// console.log(charCodeAtVal);
+
+
+// // length,
+
+// str1 = "javascript";
+
+// let lengthVal = str1.length
+
+// console.log(lengthVal);
+
+
+// // slice(),
+
+// str1 = "javascript";
+
+// let sliceVal1 = str1.slice(2,5) // SI , EI + 1
+
+// console.log(sliceVal1);
+
+
+
+// // toUpperCase(), 
+
+// str1 = "JavaScript";
+
+// let upper = str1.toUpperCase()
+
+// console.log(upper);
+
+
+
+
+// // toLowerCase(), 
+
+// str1 = "JavaScript";
+
+// let lower = str1.toLowerCase()
+
+// console.log(lower);
+
+
+
+// // trim(),
+
+// str1 = " JavaScript ";
+
+// let trimVal = str1.trim()
+
+// console.log(trimVal);
+
+// // trimStart()
+
+// str1 = " JavaScript ";
+
+// let trimStartVal = str1.trimStart()
+
+// console.log(trimStartVal);
+
+
+// // trimEnd()
+
+// str1 = " JavaScript ";
+
+// let trimEndVal = str1.trimEnd()
+
+// console.log(trimEndVal);
+
+
+
+// // includes(),
+
+// str1 = " JavaScript ";
+
+// let includesVal1 = str1.includes("c")
+
+// console.log(includesVal1);
+
+
+
+// // split(), 
+
+
+// str1 = " Java-Script ";
+
+
+// let splitVal = str1.split("a")
+
+// console.log(splitVal);
+
+
+
+
+// // indexOf(), value -- > index   axis : l --> r
+
+// let str2 = "hello-world"
+
+// let indexOfVal1 = str2.indexOf("o",5) // "value","fromIndexNumber"
+
+// console.log(indexOfVal1);
+
+
+// // lastIndexOf(), value ---> index axis : r --> l
+
+// str2 = "hello-world";
+
+// let lastIndexOfVal1 = str2.lastIndexOf("l",8)
+
+// console.log(lastIndexOfVal1);
+
+
+
+// // replace(), 
+
+// str2 = "hello-world";
+
+// let replaceVal = str2.replace("hello","javascript") // "what value u want change","which value you want"
+
+// console.log(replaceVal);
+
+// // repeat()
+
+// str2 = "hello-world";
+
+// let repeatVal = str2.repeat(1)
+
+// console.log(repeatVal);
+
+
+
+
+// // startsWith(), 
+
+// str2 = "hello-world";
+
+// let startsWithVal = str2.startsWith("h")
+
+// console.log(startsWithVal);
+
+
+
+// // endsWith()
+
+// str2 = "hello-world";
+
+// let endsWithVal = str2.endsWith("d")
+
+// console.log(endsWithVal);
+
+// console.clear();
+
+
+// // Date()
+
+
+// let dateVal = new Date()
+
+// console.log(dateVal);
+
+// // get()
+
+// // year
+
+// let year = dateVal.getFullYear()
+
+// console.log(year);
+
+// // date 
+
+// let date11 = dateVal.getDate()
+
+// console.log(date11);
+
+// // month 
+
+// let month = dateVal.getMonth()
+
+// console.log(month);
+
+// // day
+
+// let day = dateVal.getDay()
+
+// console.log(day);
+
+// // hour 
+
+// let hour1 =  dateVal.getHours()
+
+// console.log(hour1);
+
+// // minutes
+
+// let minutes = dateVal.getMinutes()
+
+// console.log(minutes);
+
+// // seconds 
+
+// let seconds = dateVal.getSeconds()
+
+// console.log(seconds);
+
+
+// // local time 
+
+
+// // time
+
+// let time = dateVal.toLocaleTimeString()
+
+// console.log(time);
+
+// let date12 = dateVal.toLocaleDateString()
+
+// console.log(date12);
+
+// let both = dateVal.toLocaleString()
+
+// console.log(both);
+
+
+
+// // set()
+
+// let date13 = new Date()
+
+// console.log(date13);
+
+// // year
+
+// date13.setFullYear(2003)
+
+// console.log(date13);
+
+// // month 
+
+// date13.setMonth(2)
+
+// console.log(date13);
+
+// // date
+
+// date13.setDate(23)
+
+// console.log(date13);
+
+// // hours
+
+// date13.setHours(1)
+
+// console.log(date13);
+
+// // minutes 
+
+// date13.setMinutes(55)
+
+// console.log(date13);
+
+// // seconds 
+
+// date13.setSeconds(55)
+
+// console.log(date13);
+
+
+// let d1 = new Date().getHours()
+
+// console.log(d1);
+
+// console.clear();
+
+
+
+// // birth day finder
+
+
+// // let yearval = prompt("enter your dob year")
+// // let monthval   = prompt("enter your dob month")
+// // let dateval    = prompt("enter your dob date")
+
+// // let date14 = new Date()
+
+// // date14.setFullYear(yearval);
+// // date14.setMonth(monthval - 1);
+// // date14.setDate(dateval);
+
+// // console.log(date14);
+
+// // let dayval = date14.getDay()
+
+
+
+// // let dayVal1 = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
+
+// // alert(dayVal1[dayval]);
+
+
+// // Async
+
+
+// // setTimeOut
+
+// // setTimeout(()=>{
+
+// //   let time1 = new Date();
+
+// //   let timeVal = time1.toLocaleTimeString();
+
+// //   console.log(timeVal);
+  
+// // },5000)
+
+// // // setInterval
+
+// // setInterval(()=>{
+
+// //     let time1 = new Date()
+
+// //     let timeVal = time1.toLocaleTimeString()
+
+// //     console.log(timeVal);
+    
+    
+// // },1000)
+
+
+// // function one(){
+// //      console.log("one");
+     
+// // }
+
+// // function two(){
+// //     console.log("two");
+    
+// // }
+
+// // function three(){
+// //     console.log("three");
+    
+// // }
+
+// // one()
+// // setTimeout(two,1000)
+// // three()
+
+// // promise 
+
+// // resolve - successful state
+
+// // reject  - error
+
+// // bending - coming data
+
+
+// // fetch("https://fakestoreapi.com/products/")
+// // .then((a)=>{
+
+// //    return a.json()
+
+// //     // json -- js ==> .json()
+    
+// // })
+// // .then((jsData)=>{
+// //     jsData.forEach((c,i,t)=>{
+
+// //         console.log(c.title);
+
+        
+// //     })
+    
+// // })
+
+// // .catch((error)=>{
+// //     console.log(error.message);
+    
+// // })
+// // .finally((c)=>{
+// //     console.log(c);
+    
+// // })
+
+
+// console.clear();
+
+
+// // Dom - Document object model
+
+// // selecting
+
+// // getElementByTagName
+
+// let h1tag = document.getElementsByTagName("h1")
+
+// console.log(h1tag);
+
+// // getElementByClassName
+
+// let className = document.getElementsByClassName("one")
+
+// console.log(className);
+
+// // getElementById
+
+// let idName = document.getElementById("two")
+
+// console.log(idName);
+
+
+// // queryselector
+
+// // tag
+
+// let tagName = document.querySelector("h2")
+
+// console.log(tagName);
+
+// // class
+
+// let class1 = document.querySelector(".first")
+
+// console.log(class1);
+
+// // id
+
+// let idname = document.querySelector("#second")
+
+// console.log(idname);
+
+
+// let h3 = document.querySelector("h3")
+
+// console.log(h3);
+
+
+
+
+
+// // queryselectorAll
+
+// let h3All = document.querySelectorAll("h3")
+
+// console.log(h3All);
+
+// console.clear();
+
+
+
+
+// // traversing
+
+// // parent select method
+
+// let child1 = document.querySelector(".child1")
+
+// console.log(child1);
+// console.log(child1.parentElement);//parentElement
+
+// // child select method
+
+// let parent = document.querySelector(".parent")
+
+// console.log(parent);
+// console.log(parent.firstElementChild); // firstElementChild
+// console.log(parent.lastElementChild);//lastElementChild
+// console.log(parent.firstChild);
+// console.log(parent.lastChild);
+
+
+// // sibling select method
+
+// let child2 = document.querySelector(".child2")
+
+// console.log(child2);
+// console.log(child2.nextElementSibling); // nextElementSibling
+// console.log(child2.previousElementSibling);// previousElementSibling
+
+// let child3 = child2.nextElementSibling
+
+
+// console.log(child3.nextElementSibling);
+
+
+
+// // manipulating
+
+// // Inside Value Access // 
+
+// // value 
+
+let input = document.querySelector("input")
+
+input.value = "hello"
+
+
+
+
+// // textContent,innerText,innerHTML
+
+// textContent
+
+let h1 = document.querySelector("h1")
+
+h1.textContent = "welcome"
+
+// innerText 
+
+let h2 = document.querySelector("h2")
+
+h2.innerText = "hello"
+
+// innerHtml
+
+let one = document.querySelector(".one")
+
+one.innerHTML = `<h1>hi</h1> <h2>one</h2>`
+
+
+
+// // EvenHandler
+
+function one1(){
+    let h3 = document.querySelector("h3")
+
+    h3.textContent = "hello user"
+}
+
+
+// // EvenListner
+
+let two = document.querySelector(".two")
+let btn = document.querySelector(".btn")
+
+btn.addEventListener("click",()=>{
+    two.innerText = "three"
+})
+
+
+
+// // To create a new tag //
+
+// // createElement
+
+let li = document.createElement("li")
+
+li.innerText = "apple"
+
+let ol = document.querySelector("ol")
+
+// // Add style //
+
+// // style.property
+
+li.style.color = "red"
+li.style.fontSize = "50px"
+
+// // Add attributes
+
+// // setAttributes
+
+li.setAttribute("id","four") // attribute type , attribute name
+
+ol.append(li)
+
+
+
+// Todo Application
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 100vw;
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width: 300px;
+    height: 450px;
+
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+
+    border: 5px solid black;
+    border-radius: 12px;
+
+    overflow: hidden;
+}
+
+input{
+    grid-area: 1 / 1 / 2 / -1 ;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 700;
+
+    background-color: blueviolet;
+    color: aliceblue;
+
+    border: none;
+    outline: none;
+}
+
+button{
+    border-radius: 12px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+
+    border: 2px solid white;
+}
+
+button:hover{
+    border: 2px solid rebeccapurple;
+}
+
+button:active{
+    background-color: brown;
+}
